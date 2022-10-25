@@ -6,7 +6,7 @@ import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <div className={styles.Navbar}>
+    <nav className={styles.Navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/">
@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 export default Navbar;

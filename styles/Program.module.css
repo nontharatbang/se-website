@@ -1,0 +1,28 @@
+.hero {
+  background: url("../public/program_background.svg");
+  min-height: 480px;
+}
+
+.heading {
+  display: flexbox;
+  padding-left: 100px;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding-top: 140px;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
