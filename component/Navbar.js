@@ -1,16 +1,15 @@
-import React from "react";
 import Link from "next/Link";
 import Image from "next/image";
 import logo from "../public/SElogo.svg";
 import styles from "../styles/Navbar.module.css";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <div className={styles.Navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/">
-            <Image src={logo} alt="SeLogo"></Image>
+            <Image src={logo} alt="SeLogo" />
           </Link>
         </div>
         <ul className={styles.navMenu}>
@@ -33,5 +32,4 @@ const Navbar = () => {
       </div>
     </div>
   );
-};
-export default Navbar;
+}
