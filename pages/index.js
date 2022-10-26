@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Profile from "../component/Profile.js";
 import styles from "../styles/Home.module.css";
+// import global from "../styles/global.css";
 import learnmore_arrow from "../public/learnmore_arrow.svg";
 
 export default function Home() {
@@ -14,8 +16,8 @@ export default function Home() {
         <div className={styles.headinginfo}>
           <div className={styles.leftbox}></div>
           <div className={styles.rightbox}>
-            <p className={styles.p}>Upcoming Admission Round 1</p>
-            <p className={styles.p}>Dec 2022</p>
+            <p className={styles.heroP}>Upcoming Admission Round 1</p>
+            <p className={styles.heroP}>Dec 2022</p>
             <div className={styles.learnmore}>
               <Image src={learnmore_arrow} alt="learnmore arrow" />
               <span className={styles.span}>Learn more about the course</span>
@@ -23,8 +25,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.pagelink}>
-        <div className={styles.pagelinkContainer}>
+      <div className={styles.container}>
+        <div className={styles.pagelink}>
           <div className={styles.leftbox}>
             <div className={styles.programlink}>
               <div className={styles.infobox}>
@@ -74,10 +76,35 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="crew">
-        <h3>OUR LECTURERS</h3>
-        <p>Professionals that works with us</p>
-        {/*  add lecturers here  */}
+      <div className={styles.container}>
+        <div className={styles.crew}>
+          <h3 className={styles.crewH}>OUR LECTURERS</h3>
+          <p>Professionals that works with us</p>
+          <div className={styles.lecturercards}>
+            <Profile />
+            <Profile />
+            <Profile />
+            <Profile />
+          </div>
+          <div className={styles.showmore}>
+            <p className={styles.p}>Show More</p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.container}>
+        <div className={styles.crew}>
+          <h3 className={styles.crewH}>OUR LECTURERS</h3>
+          <p>Professionals that works with us</p>
+          <div className={styles.lecturercards}>
+            <Profile />
+            <Profile />
+            <Profile />
+            <Profile />
+          </div>
+          <div className={styles.showmore}>
+            <p className={styles.p}>Show More</p>
+          </div>
+        </div>
       </div>
     </div>
   );

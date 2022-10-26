@@ -162,7 +162,7 @@
 .leftbox {
   max-width: 50%;
   width: 100%;
-  padding: 0 40px;
+  padding-right: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -171,13 +171,17 @@
 .rightbox {
   max-width: 50%;
   width: 100%;
-  padding: 0 40px;
+  padding-left: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.p {
+.p{
+    font-size: 16px;
+}
+
+.heroP {
   padding-top: 8px;
 }
 
@@ -198,16 +202,8 @@
 }
 
 .pagelink {
-  padding-top: 60px;
-}
-
-.pagelinkContainer {
-  margin: 0 auto;
-  height: 100%;
-  padding: 0 var(--padding);
-  width: 100%;
-  max-width: 1920px;
   display: flex;
+  padding-top: 60px;
 }
 
 .programlink {
@@ -271,3 +267,40 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+.lecturercards{
+  display: flex;
+  align-self: center;
+  padding: 40px 0px;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 var(--padding);
+  width: 100%;
+  max-width: 1920px;
+}
+
+.crew{
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.crewH{
+  font-size: 34px;
+}
+
+.showmore{
+  background-color: #989898;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 168px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 10px 45px;
+  align-self: center;
+}
+
