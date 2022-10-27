@@ -5,7 +5,7 @@ import styles from "../styles/Navbar.module.css";
 
 export default function Navbar() {
   return (
-    <div className={styles.Navbar}>
+    <nav className={styles.Navbar}>
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/">
@@ -30,6 +30,6 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
