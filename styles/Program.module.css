@@ -34,8 +34,17 @@
   letter-spacing: 1px;
 }
 
+.letter {
+  margin: 30px auto;
+  height: 100%;
+  padding: 0 var(--padding);
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+}
+
 .h3 {
-  padding: 32px 122px;
+  padding-left: 10px;
 }
 
 .left1 {

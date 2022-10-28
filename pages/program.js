@@ -13,7 +13,9 @@ export default function program() {
         </div>
       </div>
       <div className={styles.pagelink}>
-        <h3 className={styles.h3}>PROGRAM</h3>
+        <div className={styles.letter}>
+          <h3 className={styles.h3}>PROGRAM</h3>
+        </div>
         <div className={styles.row}>
           <div className={styles.left1}>
             <div className={styles.curriculum}>
