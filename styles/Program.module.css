@@ -118,6 +118,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 0 0 20px 20px;
 }
 
 .longbox {
@@ -126,6 +127,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 0 0 20px 20px;
 }
 
 .shortinfo {
@@ -151,6 +153,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .kmitlxglasgow {
@@ -165,6 +168,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .studyplan {
@@ -179,6 +183,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .internship {
@@ -193,6 +198,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .studyabroad {
@@ -207,6 +213,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .lecturer {
@@ -221,4 +228,5 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
