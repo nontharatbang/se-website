@@ -1,5 +1,7 @@
 .hero {
   background: url("../public/program_background.svg");
+  background-size: cover;
+  background-position: bottom;
   min-height: 480px;
 }
 
