@@ -50,6 +50,10 @@
   margin-bottom: 40px;
 }
 
+.imagecontainer {
+  text-align: center;
+}
+
 .left {
   max-width: 30%;
   width: 100%;

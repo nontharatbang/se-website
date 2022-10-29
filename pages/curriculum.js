@@ -33,7 +33,7 @@ export default function curriculum() {
           <div className={styles.structure}>
             <h2 className={styles.h2}>Programming structure</h2>
           </div>
-          <div className={styles.image}>
+          <div className={styles.imagecontainer}>
             <Image src={program_structure} alt="Program structure" />
           </div>
         </div>
