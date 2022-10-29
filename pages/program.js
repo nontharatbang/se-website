@@ -9,7 +9,7 @@ export default function program() {
       <div className={styles.hero}>
         <div className={styles.heading}>
           <h1 className={styles.h1}>Explore program</h1>
-          <h1 className={styles.h2}>Avaiable at SE@kmitl</h1>
+          <h1 className={styles.h1}>Avaiable at SE@kmitl</h1>
         </div>
       </div>
       <div className={styles.pagelink}>
