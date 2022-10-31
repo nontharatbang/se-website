@@ -1,0 +1,129 @@
+.hero {
+  background: url("../public/admissionpic.svg");
+  min-height: 480px;
+}
+
+.heading {
+  display: flexbox;
+  padding-left: 100px;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: white;
+  letter-spacing: 1px;
+  padding-top: 140px;
+  text-transform: uppercase;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 10px 45px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #8f5610;
+  border: none;
+  border-radius: 6px;
+  margin: 40px 51px 40px 89px;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 10px 45px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #1206a6;
+  border: none;
+  border-radius: 6px;
+  margin: 40px 0px 40px 0px;
+}
+
+.button3 {
+  display: inline-block;
+  padding: 10px 45px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #113f01;
+  border: none;
+  border-radius: 6px;
+  margin: 40px 51px 40px 51px;
+}
+
+.first_section {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 10px 85px;
+}
+
+.button4 {
+  padding: 10px 45px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #8f5610;
+  border: none;
+  border-radius: 6px;
+  margin: 40px 51px 40px 89px;
+}
+
+.second_section {
+  font-style: medium;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 10px 85px;
+}
+
+.button5 {
+  padding: 10px 45px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  margin: 40px 51px 40px 89px;
+  background-color: #1206a6;
+}
+
+.third_section {
+  font-style: medium;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 10px 85px;
+}
+
+.button6 {
+  padding: 10px 45px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  margin: 40px 51px 40px 89px;
+  background-color: #113f01;
+}
