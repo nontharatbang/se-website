@@ -9,13 +9,13 @@ export default function program() {
       <div className={styles.hero}>
         <div className={styles.heading}>
           <h1 className={styles.h1}>Explore program</h1>
-          <h1 className={styles.h2}>Avaiable at SE@kmitl</h1>
+          <h1 className={styles.h1}>Avaiable at SE@kmitl</h1>
         </div>
       </div>
-      <div className={styles.pagename}>
-        <h3 className={styles.h3}>PROGRAM</h3>
-      </div>
       <div className={styles.pagelink}>
+        <div className={styles.letter}>
+          <h3 className={styles.h3}>PROGRAM</h3>
+        </div>
         <div className={styles.row}>
           <div className={styles.left1}>
             <div className={styles.curriculum}>
@@ -41,13 +41,13 @@ export default function program() {
               <div className={styles.longbox}>
                 <div className={styles.longinfo}>
                   <div>
-                    <Link href="/kmitlxglasgow">
-                      <p className={styles.p}>kmitl x glasgow</p>
+                    <Link href="/kmitl_glasgow">
+                      <p className={styles.p}>kmitl - glasgow</p>
                     </Link>
                   </div>
                   <div className={styles.learnmore}>
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <Link href="/kmitlxglasgow">
+                    <Link href="/kmitl_glasgow">
                       <span className={styles.span}>Learn more</span>
                     </Link>
                   </div>

@@ -1,24 +1,16 @@
 .hero {
   background: url("../public/program_background.svg");
+  background-size: cover;
+  background-position: bottom;
   min-height: 480px;
 }
 
 .heading {
   display: flexbox;
-  padding-left: 100px;
+  padding: 140px 100px;
 }
 
 .h1 {
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 100px;
-  color: #ffffff;
-  letter-spacing: 1px;
-  padding-top: 140px;
-  text-transform: uppercase;
-}
-
-.h2 {
   font-weight: 700;
   font-size: 64px;
   line-height: 100px;
@@ -34,8 +26,17 @@
   letter-spacing: 1px;
 }
 
+.letter {
+  margin: 30px auto;
+  height: 100%;
+  padding: 0 var(--padding);
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+}
+
 .h3 {
-  padding: 32px 122px;
+  padding-left: 10px;
 }
 
 .left1 {
@@ -107,6 +108,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 0 0 20px 20px;
 }
 
 .longbox {
@@ -115,6 +117,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 0 0 20px 20px;
 }
 
 .shortinfo {
@@ -140,6 +143,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .kmitlxglasgow {
@@ -154,6 +158,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .studyplan {
@@ -168,6 +173,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .internship {
@@ -182,6 +188,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .studyabroad {
@@ -196,6 +203,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
 
 .lecturer {
@@ -210,4 +218,5 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  border-radius: 20px;
 }
