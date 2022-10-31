@@ -1,5 +1,5 @@
 .hero {
-  background: url("../public/curriculum_background.svg");
+  background: url("../public/glasgow_background.svg");
   background-size: cover;
   background-position: bottom;
   height: 480px;
@@ -51,14 +51,13 @@
 }
 
 .imagecontainer {
-  text-align: center;
+  margin: 10px auto;
 }
 
 .left {
   max-width: 40%;
   width: 100%;
 }
-
 .right {
   max-width: 60%;
   width: 100%;
@@ -72,4 +71,12 @@
   align-items: center;
   text-align: justify;
   letter-spacing: 1px;
+}
+
+.collapscontainer {
+  margin: 50px auto;
+  height: 100%;
+  padding: 0 var(--padding);
+  width: 100%;
+  max-width: 1920px;
 }

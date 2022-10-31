@@ -72,17 +72,17 @@ export default function curriculum() {
               required to take one of the following specializations:
               <br />
               <br />
-              Enterprise Software Engineering - Specializing inlarge and complex
-              software for enterprises and distributed systems
+              <b>Enterprise Software Engineering</b> - Specializing inlarge and
+              complex software for enterprises and distributed systems
               <br />
               <br />
-              Internet of Things - Specializing in the Internet of Things,
-              including embedded and mobile systems
+              <b>Internet of Things</b> - Specializing in the Internet of
+              Things, including embedded and mobile systems
               <br />
               <br />
-              Intelligent Systems - Specializing in applications of artificial
-              intelligence and data science, including machine learning and Big
-              Data
+              <b>Intelligent Systems</b> - Specializing in applications of
+              artificial intelligence and data science, including machine
+              learning and Big Data
               <br />
               <br />
               The study plans for these three specializations differ in some
@@ -95,7 +95,8 @@ export default function curriculum() {
         <div className={styles.row}>
           <div className={styles.left}>
             <h2 className={styles.h2}>
-              Year 3 and Year 4 (KMITL-Glasgow Double-Degree Program)
+              Year 3 and Year 4 <br />
+              (KMITL-Glasgow Double-Degree Program)
             </h2>
           </div>
           <div className={styles.right}>
