@@ -1,0 +1,19 @@
+.hero {
+  background: url("../public/lecturer_bg.svg");
+  background-size: cover;
+  background-position: top;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h1 {
+  padding-left: 100px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
