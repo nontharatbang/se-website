@@ -4,7 +4,7 @@ import program_structure from "../public/program_structure.svg";
 export default function curriculum() {
   return (
     <div>
-      <div className={styles.hero}>
+      <div className="bg-[url('../public/program_background.svg')] bg-cover bg-center min-h-808 text-white font-bold">
         <div className={styles.heading}>
           <h1 className={styles.h1}>Curriculum</h1>
         </div>
