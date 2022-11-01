@@ -1,4 +1,3 @@
-import styles from "../styles/Program.module.css";
 import Image from "next/image";
 import learnmore_arrow from "../public/learnmore_arrow.svg";
 import Link from "next/Link";
