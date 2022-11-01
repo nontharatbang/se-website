@@ -1,10 +1,9 @@
 import Image from "next/image";
-import program_structure from "../public/program_structure.svg";
 
 export default function curriculum() {
   return (
     <div>
-      <div className="bg-[url('../public/program_background.svg')] bg-cover bg-center min-h-808 text-white font-bold">
+      <div className={styles.hero}>
         <div className={styles.heading}>
           <h1 className={styles.h1}>Curriculum</h1>
         </div>
@@ -33,7 +32,7 @@ export default function curriculum() {
             <h2 className={styles.h2}>Programming structure</h2>
           </div>
           <div className={styles.imagecontainer}>
-            <Image src={program_structure} alt="Program structure" />
+            {/* <Image src={program_structure} alt="Program structure" /> */}
           </div>
         </div>
         <div className={styles.row}>

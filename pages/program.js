@@ -6,18 +6,22 @@ import Link from "next/Link";
 export default function program() {
   return (
     <div>
-      <div className={styles.hero}>
-        <div className={styles.heading}>
-          <h1 className={styles.h1}>Explore program</h1>
-          <h1 className={styles.h2}>Avaiable at SE@kmitl</h1>
+      <div className="bg-[url('../public/program_background.svg')] bg-cover bg-center min-h-[480px] text-white font-bold">
+        <div>
+          <h1 className="px-20 pt-[140px] text-7xl uppercase">
+            Explore program
+          </h1>
+          <h1 className="px-20 pt-4 text-7xl uppercase">
+            Avaiable at SE@kmitl
+          </h1>
         </div>
       </div>
-      <div className={styles.pagelink}>
-        <div className={styles.letter}>
-          <h3 className={styles.h3}>PROGRAM</h3>
+      <div className="my-0 mx-auto px-10 h-full w-full max-w-[1920px]">
+        <div className="my-8 mx-auto">
+          <h3 className="pl-2 text-2xl font-bold">PROGRAM</h3>
         </div>
-        <div className={styles.row}>
-          <div className={styles.left1}>
+        <div className="max-w-[40%] w-full flex flex-col justify-end pr-10">
+          <div className="py-0 px-2 max-w-5/12 flex flex-start">
             <div className={styles.curriculum}>
               <div className={styles.shortbox}>
                 <div className={styles.shortinfo}>
