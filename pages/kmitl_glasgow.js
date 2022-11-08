@@ -1,6 +1,7 @@
 import Image from "next/image";
 import glasgow_icon from "../public/glasgow_icon.svg";
 import Link from "next/Link";
+import collaps from "../components/collaps";
 
 export default function curriculum() {
   return (
@@ -128,6 +129,7 @@ export default function curriculum() {
             </p>
           </div>
         </div>
+        <collaps />
       </div>
     </div>
   );
