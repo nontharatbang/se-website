@@ -10,7 +10,7 @@ export default function admission() {
           <h1 className={styles.h1}>admissions</h1>
         </div>
       </div>
-      <div className={styles.button1}>Programs and Number of Acceptances</div>
+      <div className={styles.button1}>Early Round Direct Admissions</div>
       <div className={styles.button2}>Application Requirements</div>
       <div className={styles.button3}>Admissions Schedule</div>
       <div className={styles.button1}>Application Submission</div>
@@ -18,11 +18,6 @@ export default function admission() {
         Tuition Fees and Enrollment Confirmation
       </div>
       <div className={styles.button3}>Scholarships</div>
-      <div className={styles.button1}>Contact Information</div>
-      <div className={styles.button2}>
-        Download the document about the application process
-      </div>
-      <div className={styles.button3}>Apply Admissions online</div>
       <div className={styles.first_section}>
         School of Engineering, King Mongkut's Institute of Technology Ladkrabang
         invites qualified applicants to apply for admissions to the School of
@@ -48,71 +43,109 @@ export default function admission() {
         of 1.2 or 1.3 Direct Admissions 1-1 (Early Round) : 5 years Unified
         Bachelor's & Master's Degree Program KMITL - AIT or KMITL - CMKL
       </div>
-      <div className={styles.button5}>Direct Admissions</div>
       <div className={styles.third_section}>
-        Thai and non-Thai candidates both in Thailand and abroad may apply for
-        admissions directly with the Faculty of Engineering, KMITL. Selection of
-        successful candidates through the direct admissions is based on the
-        submitted academic records, standardized test scores, and an interview.
-        There is no paper examination. <br /> <br></br> Note that, even though
-        the direct admissions are done through the Faculty of Engineering
-        directly, all accepted candidates who are Thai nationals are still
-        required to confirm the acceptance of their admission offers on the
-        national TCAS website during the period specified by the Council of
-        University Presidents of Thailand (CUPT). <br /> Please see the
-        application procedure and criteria below. <br /> <br></br>1. Eligibility
-        requirements <br /> <br></br>To be eligible for consideration, you must
-        satisfy the requirements set out in 1.1, 1.2, 1.3, and 1.4 below. <br />
-        <br></br>
-        1.1 Educational qualifications <br /> <br></br>You must have obtained or
-        be expected to obtain prior to the start of Academic Year 2021 an
-        educational qualification equivalent to (or higher than) a high school
-        diploma in Thailand. Please see https://bit.ly/2Eax5aLfor the criteria
-        for high school equivalency endorsed by the Council of University
-        Presidents of Thailand. <br /> <br></br> 1.2 General academic
-        requirement <br></br> <br /> You are expected to demonstrate good
-        academic competence. Specifically, you must be able to provide at least
-        one of the following: <br /> SAT general test score of 1020 or higher
-        <br />
-        GSAT score of 1020 or higher <br /> ACT composite score of 19 or higher
-        <br />
-        IB Diploma score of 29 or higher <br /> Cumulative GPA in high school (5
-        semesters) in the 75th percentile <br /> National higher education board
-        exam or university entrance exam (such as A-Level, Gaokao, GAT/PAT) that
-        the admission committee considers equivalent to one of the above
-        qualifications <br />
-        <br></br>
-        1.3 Subject specific requirement <br /> <br></br>You are expected to
-        demonstrate an excellent level of knowledge and skills of mathematics.
-        Specifically, you must be able to provide at least one of the following:
-        <br />
-        SAT Math score of 600 or higher <br /> GSAT Math score of 600 or higher
-        <br />
-        SAT subject test Mathematics Level 1 or Mathematics Level 2 score of 600
-        or higher <br /> ACT mathematics score of 23 or higher <br /> IB Diploma
-        score for a mathematics subject with a score of 5 or higher <br /> AP
-        test for a mathematics subject with a score of 4 or higher <br />
-        A-Level or AS-Level for a mathematics subject with grade B or higher
-        <br /> PAT 1 (mathematics) score of 90 or higher <br /> Overall average
-        of the grades for all mathematics subjects taken in high school at least
-        3 out 4 (or equivalent) <br /> Test score or qualification that the
-        admission committee considers equivalent to one of the above <br />
-        <br></br>1.4 English language proficiency <br /> You are expected to
-        demonstrate excellent skills of English language for academic purposes.
-        Specifically, you are expected to provide at least one of the following:
-        <br />
-        TOEFL (iBT) score of 79 or higher <br /> TOEFL (ITP or paper-based test)
-        score of 550 or higher <br /> IELTS score of 6.0 or higher <br />
-        Cambridge English Exams (FCE/CAE/CPE) score of 170 or higher <br /> IB -
-        English A1 or A2 score of 4 or higher <br /> IB - English B (HL) score
-        of 5 or higher <br /> KMITL-TEP score of B2 or higher <br /> Note: The
-        applicant who marginally fails the above requirement on English language
-        proficiency may be admitted upon the condition that the applicant
-        enrolls and passes English as a Second Language (ESL) courses offered by
-        the Faculty of Engineering before or during the first year of study at
-        KMITL. Additional fees may apply.
+        1.1 Direct Admissions 1-1 (Early Round) : 4 years Bachelor's Degree
+        Programs <br />
+        &emsp;&emsp; This is a maximum target number of accepted students for
+        academic year 2023. The program won't open in the next round if the
+        number is reached.
       </div>
-      <div className={styles.button6}>Application Procedure and Schedule</div>
+      <div className={styles.fourth_section}>
+        1.2 Direct Admissions 1-1 (Early Round) : 5 years Unified Bachelor's &
+        Master's Degree Program (KMITL - AIT) <br />
+        &emsp;&emsp;Students will spend the first seven (7) semesters (3.5
+        years) at KMITL for bachelor courses, and do the 8th semester of
+        Bachelor Capstone Projects at Asian Institute of Technology (AIT) ,
+        while at the same time do the Master's program at AIT, credits earned
+        from which will be transferred to the bachelor's degree, students will
+        have the opportunity to complete the master program in 3 semesters and 1
+        inter-semester (1.5 years).
+      </div>
+      <div className={styles.fifth_section}>
+        1.3 Direct Admissions 1-1 (Early Round) : 5 years Unified Bachelor's &
+        Master's Degree Program (KMITL - CMKL) <br />
+        &emsp;&emsp;Students will spend the first 6 semesters (3 years) at KMITL
+        for bachelor courses, and do the 7th - 8th semester of Bachelor Capstone
+        Projects at CMKL University (CMKL) and School of Engineering, King
+        Mongkut's Institute of Technology Ladkrabang (KMITL) to graduate with a
+        Bachelor's degree at the end of Year 4 at KMITL . The coursework of
+        Master's Degree will start from 7th semester and finish with a Master's
+        degree at the end of Year 5.
+      </div>
+      <div className={styles.sixth_section}>
+        2. Application Requirements <br /> 2.1 Bachelor's Requirements (Based on
+        KMITL) <br />
+        &emsp;&emsp; 2.1.1 Educational background <br />
+        &emsp;&emsp;The applicant must satisfy at least one of the following
+        requirements:
+        <br />
+        &emsp;&emsp;1) Graduated or studying in Matthayom 6.
+        <br /> &emsp;&emsp;2) Graduated in qualification equivalent to Matthayom
+        6 as approved by the Ministry of Education. <br />
+        &emsp;&emsp;(The applicants who submit this educational background,
+        please contact SIIE office.) <br />
+        &emsp;&emsp;3) Graduated or studying at an accredited college or
+        higher-education institution in Thailand or aboard The applicant must
+        provide an official final transcript and their official high school
+        diplomas and/or certificates of completion from their school before the
+        start of Academic Year 2022.
+        <br /> <br></br>
+        &emsp;&emsp;2.1.2 Academics Record The applicant should submit at least
+        one of the following standardized test results and obtain a score which
+        meet the minimum requirements as specified below:
+        <br />
+        <br></br>Remark: <br />* The applicants for Financial Engineering and
+        Software Engineering are required to meet one of these additional
+        requirements. <br />
+        &emsp;&emsp;- SAT or GSAT Math score of 600 or higher <br />
+        &emsp;&emsp;- or SAT subject test Math Level 1 or Math Level 2 score of
+        600 or higher <br />
+        &emsp;&emsp;- or ACT Math score of 23 or higher <br />
+        &emsp;&emsp;- or IB Diploma score for a subject in Mathematics with a
+        score of 5 or higher
+        <br />
+        &emsp;&emsp;- or AP test for a subject in Mathematics with a score of 4
+        or higher <br />
+        &emsp;&emsp;- or A-Level or AS-Level for a subject in Mathematics with
+        grade B or above <br />
+        &emsp;&emsp;- orPat1Scoreof90orhigher <br />
+        &emsp;&emsp;- or Cumulative GPA of all Math subjects in high school at
+        least 3 out of 4 (or equivalent) <br />
+        &emsp;&emsp;** For Software Engineering Certificate provided by School
+        of Engineering – KMITL *can not* be used as a substitution of any
+        standardized test results, however it can be submitted for consideration
+        as additional document.
+        <br />
+        <br></br>
+        &emsp;&emsp;2.1.3 Language Requirement (for non-native English speakers)
+        <br />
+        The applicant should submit at least one of the following English
+        proficiency Test score and obtain a score which meets the minimum
+        requirement specified below:
+        <br /> <br></br>
+        Remark: <br />
+        1. Applicants who have an English proficiency score meeting with minimum
+        or over requirement can be admitted without conditions (The score has to
+        be valid not more than 2 years from the date of application deadline).{" "}
+        <br />
+        2. Applicants who do not submit any English proficiency test score or
+        have lower than the required can be conditionally accepted by taking
+        SIIE Pre-sessional English Course for 30 hours before the start of the
+        first semester and enrolling in additional English as a Second Language
+        (ESL) courses at KMITL in the first semester.
+        <br />
+        <br></br>
+        &emsp;&emsp;2.1.4 Personal Statement <br />
+        &emsp;&emsp;Please write an essay (650 words or fewer) that demonstrates
+        your ability to communicate your thoughts and your related experience in
+        the field of study.
+        <br />
+        <br></br>
+        &emsp;&emsp;2.1.5 Two Recommendation Letters <br />
+        &emsp;&emsp;The applicant should upload PDFs or JPG snapshots of the
+        letters of recommendation from your advisors or teachers.
+      </div>
+      <div className={styles.seventh_section}>3.Admission Schedule</div>
     </div>
   );
 }
