@@ -10,36 +10,43 @@ export default function admission() {
           <h1 className={styles.h1}>admissions</h1>
         </div>
       </div>
-      <div className={styles.button1}>TCAS Admissions</div>
-      <div className={styles.button2}>Direct Admissions</div>
-      <div className={styles.button3}>Application Procedure and Schedule</div>
-      <div className={styles.first_section}>
-        The B.Eng. in Software Engineering program welcomes both Thai and
-        international applicants. For 2021 Admissions, the program accepts new
-        students through 2 admission channels: <br></br>
-        <br />
-        1. TCAS Admissions <br /> 2. Direct Admissions <br /> In both channels,
-        there are a number of application rounds. International applicants
-        residing outside Thailand are recommended to apply through direct
-        admissions. Please see below for the admission requirements and
-        schedules for each round of each admission channel.
+      <div className={styles.button1}>Programs and Number of Acceptances</div>
+      <div className={styles.button2}>Application Requirements</div>
+      <div className={styles.button3}>Admissions Schedule</div>
+      <div className={styles.button1}>Application Submission</div>
+      <div className={styles.button2}>
+        Tuition Fees and Enrollment Confirmation
       </div>
-      <div className={styles.button4}>TCAS Admissions</div>
+      <div className={styles.button3}>Scholarships</div>
+      <div className={styles.button1}>Contact Information</div>
+      <div className={styles.button2}>
+        Download the document about the application process
+      </div>
+      <div className={styles.button3}>Apply Admissions online</div>
+      <div className={styles.first_section}>
+        School of Engineering, King Mongkut's Institute of Technology Ladkrabang
+        invites qualified applicants to apply for admissions to the School of
+        Engineering in 4 years Bachelor's Degree Programs, 5 years Unified
+        Bachelor's & Master's Degree Program (KMITL - AIT) and 5 years Unified
+        Bachelor's & Master's Degree Program (KMITL - CMKL) for Academic Year
+        2023 (beginning in August 2023). This round of admissions is opened to
+        all applicants with excellent academic backgrounds. Selection of
+        qualified candidates is based on the applicant's academic records,
+        standardized test scores, and English proficiency test results, along
+        with a personal statement, letters of recommendation, past academic
+        activities, the interview and other supplementary documents. <br></br>
+        <br></br>
+      </div>
       <div className={styles.second_section}>
-        TCAS admissions are open to Thai and non-Thai nationals who graduated or
-        about to graduate from schools in Thailand. Currently, TCAS Round 1 is
-        open. There are many application tracks for applicants of the Software
-        Engineering program in TCAS Round 1. See below for the admissions
-        requirements and schedule for each track. <br /> 1. การรับแบบ Portfolio
-        โครงการเรียนดี ช้างเผือก กลุ่มโรงเรียนสายสามัญ <br /> 2. การรับแบบ
-        Portfolio โครงการรางวัลและประกาศนียบัตรทางวิชาการ <br /> 3. การรับแบบ
-        Portfolio โครงการเพชรยอดมงกุฎ <br /> 4. การรับแบบ Portfolio
-        โครงการโรงเรียนวิทยาศาสตร์ <br /> 5. โควตานักเรียน
-        มูลนิธิส่งเสริมโอลิมปิกวิชาการและพัฒนามาตรฐานวิทยาศาสตร์ศึกษา
-        ในพระอุปถัมภ์สมเด็จพระเจ้าพี่นางเธอ เจ้าฟ้ากัลยาณิวัฒนา
-        กรมหลวงนราธิวาสราชนครินทร์ (สอวน.) <br /> Applications for TCAS Round 1
-        can be submitted on KMITL's TCAS admissions website until21 December
-        2020 at https://www1.reg.kmitl.ac.th/TCAS/tcas.php
+        1. Programs and Number of Acceptances <br />
+        Selection Procedure: <br /> &emsp;&emsp; 1. You may apply up to a
+        maximum of 3 programs choices as listed in 1.1. Direct Admissions 1-1
+        (Early Round) : 4 years Bachelor's Degree Programs. Specify the ranking
+        when considering the application <br />
+        &emsp;&emsp; 2. (Optional) After you have completely applied to program
+        1.1 and paid for the application fee payment, you may apply to the lists
+        of 1.2 or 1.3 Direct Admissions 1-1 (Early Round) : 5 years Unified
+        Bachelor's & Master's Degree Program KMITL - AIT or KMITL - CMKL
       </div>
       <div className={styles.button5}>Direct Admissions</div>
       <div className={styles.third_section}>
