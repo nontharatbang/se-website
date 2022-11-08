@@ -1,7 +1,7 @@
 import Image from "next/image";
 import glasgow_icon from "../public/glasgow_icon.svg";
 import Link from "next/Link";
-import collaps from "../components/collaps";
+import Collaps from "../components/collaps.js";
 
 export default function curriculum() {
   return (
@@ -129,7 +129,138 @@ export default function curriculum() {
             </p>
           </div>
         </div>
-        <collaps />
+        <Collaps label="Application Guidance">
+          <p className="font-medium text-lg leading-7 items-center text-justify">
+            1. On the UCAS website above, choose Undergraduate 20xx entry, where
+            20xx is the year you are planning to enter UoG, and then select
+            "Apply". This should lead you to the application system. You first
+            need toregister. Make sure you provide an email address that you
+            check regularly (could be @kmitl.ac.th address or your personal
+            email address). Your given names and your last name that you enter
+            when registering should be spelled exactly as written in your
+            passport. If there is any field in the registration form that is
+            unclear, click on ? or "Help" to see an explanation. After you have
+            registered, you will receive an email from UCAS asking you to verify
+            your email address. You should follow the instruction in the email.
+            <br />
+            2. After you have registered, you can then login to start filling in
+            your application. When asked how you are applying, you should
+            specify that you apply as "individual" (thus a "buzzword" is not
+            required).
+            <br />
+            3. When asked which program to apply, choose BSc (Hons) Software
+            Engineering program at the University of Glasgow (UCAS G430) for
+            entry into Year 3 of the program.
+            <br />
+            4. You must include a short personal statement. The statement should
+            include your reason for choosing software engineering as your
+            program of study, your reason for choosing the KMITL-Glasgow
+            Double-Degree Program in Software Engineering, and your future plan
+            after your graduate.
+            <br />
+            5. Reference letters are not needed.
+            <br />
+            6. When you submit your application, you will be asked to pay
+            theapplication fee using a credit card. You can ask someone else to
+            pay for you using their credit card. If the credit card you use does
+            not work, try another one.
+            <br />
+            7. After you have submitted your UCAS application, notify the SE
+            program director that your have done so within 30 June. Also send a
+            copy of your IELTS score report to the program director. The program
+            director will forward your IELTS score report together with your
+            transcript to the admissions office at UoG. There is no need to send
+            us your transcript as we can obtain it by ourselves.
+            <br />
+            8. If you satisfy all the requirements, UoG will notify you with
+            anunconditional offer via email. If not, UoG will send you
+            aconditional offer via email, detailing the conditions that you need
+            to satisfy and the deadline (e.g. IELTS score or final GPA for Year
+            2 at KMITL). You must accept the offer within the deadline stated in
+            your offer.
+            <br />
+            9. Once you have been given and accepted an unconditional offer, UoG
+            will start preparing aCAS statement for you. UoG will send you
+            adraft of your CAS statement for you to check for correctness. Your
+            CAS statement is a summary of your personal information, educational
+            records, and your program of study in the UK. The CAS statement will
+            be stored in an online server accessible by UK universities and the
+            UK immigration department (called the Home Office). Your CAS
+            statement will be read by the visa staff when you apply for a visa.
+            You should check that all the information is correct and, in
+            particular, thetuition fee listed in the statement is the
+            20%-discounted rate. Inform UoG if any correction is needed. Once
+            you have confirmed that the draft of your CAS statement is correct,
+            UoG will email you a copy of your final CAS statement. You should
+            print it out and later include it with your visa application. During
+            the same time after you accepted the unconditional offer, you will
+            receive some information from UoG's student services regarding the
+            registration, student accommodation, internet account, etc via
+            email. You can just response to their request. When you are asked to
+            register for courses in the upcoming semester, you can ignore that.
+            You are to do thecourse registration when you are in the UK. Your
+            advisor at UoG will help you with the course registration when you
+            arrive at UoG. Regarding the accommodation, UoG will send you an
+            application form for applying for auniversity accommodation. There
+            is a wide range of options. You can also apply for a private student
+            accommodation. For the latter, you can do so by yourself on the web
+            any time (even before you receive an offer). You can consult the SE
+            students currently studying at Glasgow for advice accommodations.
+            For a private accommodation, you could apply even before you receive
+            an offer from UoG. After your have received a copy of your final CAS
+            statement in Step 10 above, you can start applying for your UK visa.
+            See below for the visa application guidance.
+            <br />
+            14. You should plan to arrive at Glasgow at the beginning of the
+            orientation week, which is typically on the Monday in the middle of
+            September, or before that.
+            <br />
+            <br />
+            If you have any question or problem on the KMITL-Glasgow
+            Double-Degree Program in Software Engineering, please contact the SE
+            program director, Asst.Prof.Dr. Visit Hirankitti
+            (visit.hi@kmitl.ac.th).
+          </p>
+        </Collaps>
+        <Collaps label="UK Visa Guidance">
+          <p>
+            The type of the visa that you should apply is called "General
+            student visa (Tier 4)". You can apply for the visa only after you
+            have received your final CAS statement from UoG. But there are some
+            necessities that you should prepare even before starting your visa
+            application process. Make sure you have your passport that is valid
+            for 3 more years or longer. Prepare a sufficient amount of money in
+            your parents' bank account. The money must be in the account for at
+            least 28 days when you apply for a visa. Bank accounts belonging to
+            someone else other than yourself or your parents are unacceptable.
+            Only a bank account where the money can be readily withdrawn at any
+            time can be used to support your application. The minimum amount of
+            money required in the bank account is"Annual tuition fee listed on
+            CAS statement in GBP" + ("Monthly living cost of 1,015 GBP/month" x
+            9 months). Have a Tuberculosis test at an approved testing center to
+            obtain a medical certificate. See
+            https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-thailand/tuberculosis-testing-in-thailand
+            Obtain the address of your accommodation in the UK. Note that you
+            need not purchase your flight ticket before applying for your visa,
+            but you should have a travel plan, i.e. which day your plan to
+            arrive in the UK. Guidance on how to apply for this type of visa can
+            be found at https://www.gov.uk/tier-4-general-visa. Below is an
+            overview of the UK visa application procedure. Fill in and submit
+            the online application form. Upload all the required supporting
+            documents. Upload the original copies. Translations are not needed.
+            Pay the visa application fee. Print out the completed application
+            form. Make a reservation for a visit to the UK visa application
+            center. Bring your application form, your current passport and all
+            the old ones, your medical certificate, and the original version of
+            all your supporting documents and go to the visa application center.
+            At the UK visa application center, have your documents checked and
+            your fingerprints recorded. Obtain the visa collection slip and the
+            expected visa collection date. If there is no problem with your
+            application, the processing time for General student visa (Tier 4)
+            is normally 2-3 weeks after your visit to the UK visa application
+            center.
+          </p>
+        </Collaps>
       </div>
     </div>
   );

@@ -5,12 +5,12 @@ export default function collaps(props) {
   return (
     <div>
       <button
-        className="font-medium text-lg leading-7 items-center text-justify"
+        className="font-medium text-2xl leading-7 items-center text-justify"
         onClick={() => setIsOpen(!isOpen)}
       >
-        Hello
+        {props.label}
       </button>
-      {isOpen && <div className="content">{props.children}</div>}
+      {isOpen && <div>{props.children}</div>}
     </div>
   );
 }
