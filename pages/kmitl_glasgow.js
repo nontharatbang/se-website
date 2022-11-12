@@ -124,7 +124,7 @@ export default function curriculum() {
               submit their applications on the UCAS systemno later than 30 June
               (of the year they are planning to enter UoG) at&nbsp;
               <Link href="https://www.ucas.com/students">
-                https://www.ucas.com/students.
+                <a className="text-blue-800">https://www.ucas.com/students.</a>
               </Link>
             </p>
           </div>
@@ -189,27 +189,33 @@ export default function curriculum() {
             statement will be read by the visa staff when you apply for a visa.
             You should check that all the information is correct and, in
             particular, thetuition fee listed in the statement is the
-            20%-discounted rate. Inform UoG if any correction is needed. Once
-            you have confirmed that the draft of your CAS statement is correct,
-            UoG will email you a copy of your final CAS statement. You should
-            print it out and later include it with your visa application. During
-            the same time after you accepted the unconditional offer, you will
-            receive some information from UoG's student services regarding the
-            registration, student accommodation, internet account, etc via
-            email. You can just response to their request. When you are asked to
-            register for courses in the upcoming semester, you can ignore that.
-            You are to do thecourse registration when you are in the UK. Your
-            advisor at UoG will help you with the course registration when you
-            arrive at UoG. Regarding the accommodation, UoG will send you an
-            application form for applying for auniversity accommodation. There
-            is a wide range of options. You can also apply for a private student
+            20%-discounted rate. Inform UoG if any correction is needed.
+            <br />
+            10. Once you have confirmed that the draft of your CAS statement is
+            correct, UoG will email you a copy of your final CAS statement. You
+            should print it out and later include it with your visa application.
+            <br />
+            11. During the same time after you accepted the unconditional offer,
+            you will receive some information from UoG's student services
+            regarding the registration, student accommodation, internet account,
+            etc via email. You can just response to their request. When you are
+            asked to register for courses in the upcoming semester, you can
+            ignore that. You are to do thecourse registration when you are in
+            the UK. Your advisor at UoG will help you with the course
+            registration when you arrive at UoG.
+            <br />
+            12. Regarding the accommodation, UoG will send you an application
+            form for applying for auniversity accommodation. There is a wide
+            range of options. You can also apply for a private student
             accommodation. For the latter, you can do so by yourself on the web
             any time (even before you receive an offer). You can consult the SE
             students currently studying at Glasgow for advice accommodations.
             For a private accommodation, you could apply even before you receive
-            an offer from UoG. After your have received a copy of your final CAS
-            statement in Step 10 above, you can start applying for your UK visa.
-            See below for the visa application guidance.
+            an offer from UoG.
+            <br />
+            13. After your have received a copy of your final CAS statement in
+            Step 10 above, you can start applying for your UK visa. See below
+            for the visa application guidance.
             <br />
             14. You should plan to arrive at Glasgow at the beginning of the
             orientation week, which is typically on the Monday in the middle of
@@ -223,42 +229,76 @@ export default function curriculum() {
           </p>
         </Collaps>
         <Collaps label="UK Visa Guidance">
-          <p>
+          <p className="font-medium text-lg leading-7 items-center text-justify">
             The type of the visa that you should apply is called "General
             student visa (Tier 4)". You can apply for the visa only after you
             have received your final CAS statement from UoG. But there are some
             necessities that you should prepare even before starting your visa
-            application process. Make sure you have your passport that is valid
-            for 3 more years or longer. Prepare a sufficient amount of money in
-            your parents' bank account. The money must be in the account for at
-            least 28 days when you apply for a visa. Bank accounts belonging to
-            someone else other than yourself or your parents are unacceptable.
-            Only a bank account where the money can be readily withdrawn at any
-            time can be used to support your application. The minimum amount of
-            money required in the bank account is"Annual tuition fee listed on
-            CAS statement in GBP" + ("Monthly living cost of 1,015 GBP/month" x
-            9 months). Have a Tuberculosis test at an approved testing center to
-            obtain a medical certificate. See
-            https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-thailand/tuberculosis-testing-in-thailand
-            Obtain the address of your accommodation in the UK. Note that you
-            need not purchase your flight ticket before applying for your visa,
-            but you should have a travel plan, i.e. which day your plan to
-            arrive in the UK. Guidance on how to apply for this type of visa can
-            be found at https://www.gov.uk/tier-4-general-visa. Below is an
-            overview of the UK visa application procedure. Fill in and submit
-            the online application form. Upload all the required supporting
-            documents. Upload the original copies. Translations are not needed.
-            Pay the visa application fee. Print out the completed application
-            form. Make a reservation for a visit to the UK visa application
-            center. Bring your application form, your current passport and all
-            the old ones, your medical certificate, and the original version of
-            all your supporting documents and go to the visa application center.
-            At the UK visa application center, have your documents checked and
-            your fingerprints recorded. Obtain the visa collection slip and the
-            expected visa collection date. If there is no problem with your
-            application, the processing time for General student visa (Tier 4)
-            is normally 2-3 weeks after your visit to the UK visa application
-            center.
+            application process.
+            <br />
+            <br />
+            1. Make sure you have your passport that is valid for 3 more years
+            or longer.
+            <br />
+            2. Prepare a sufficient amount of money in your parents' bank
+            account. The money must be in the account for at least 28 days when
+            you apply for a visa. Bank accounts belonging to someone else other
+            than yourself or your parents are unacceptable. Only a bank account
+            where the money can be readily withdrawn at any time can be used to
+            support your application. The minimum amount of money required in
+            the bank account is"Annual tuition fee listed on CAS statement in
+            GBP" + ("Monthly living cost of 1,015 GBP/month" x 9 months).
+            <br />
+            3. Have a Tuberculosis test at an approved testing center to obtain
+            a medical certificate. See&nbsp;
+            <Link href="https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-thailand/tuberculosis-testing-in-thailand">
+              <a className="text-blue-800">
+                https://www.gov.uk/government/publications/tuberculosis-test-for-a-uk-visa-clinics-in-thailand/tuberculosis-testing-in-thailand
+              </a>
+            </Link>
+            <br />
+            4. Obtain the address of your accommodation in the UK.
+            <br />
+            <br />
+            Note that you need not purchase your flight ticket before applying
+            for your visa, but you should have a travel plan, i.e. which day
+            your plan to arrive in the UK.
+            <br />
+            <br />
+            Guidance on how to apply for this type of visa can be found at&nbsp;
+            <Link href="https://www.gov.uk/tier-4-general-visa.">
+              <a className="text-blue-800">
+                https://www.gov.uk/tier-4-general-visa.
+              </a>
+            </Link>
+            Below is an overview of the UK visa application procedure.
+            <br />
+            <br />
+            1. Fill in and submit the online application form.
+            <br />
+            2. Upload all the required supporting documents. Upload the original
+            copies. Translations are not needed.
+            <br />
+            3. Pay the visa application fee.
+            <br />
+            4. Print out the completed application form.
+            <br />
+            5. Make a reservation for a visit to the UK visa application center.{" "}
+            <br />
+            6. Bring your application form, your current passport and all the
+            old ones, your medical certificate, and the original version of all
+            your supporting documents and go to the visa application center.{" "}
+            <br />
+            7. At the UK visa application center, have your documents checked
+            and your fingerprints recorded.
+            <br />
+            8. Obtain the visa collection slip and the expected visa collection
+            date.
+            <br />
+            <br />
+            If there is no problem with your application, the processing time
+            for General student visa (Tier 4) is normally 2-3 weeks after your
+            visit to the UK visa application center.
           </p>
         </Collaps>
       </div>
