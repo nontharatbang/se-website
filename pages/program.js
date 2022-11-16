@@ -52,7 +52,7 @@ export default function program() {
                   </div>
                   <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <Link href="/kmitlxglasgow">
+                    <Link href="/kmitl_glasgow">
                       <span className="self-center pl-2 whitespace-nowrap">
                         Learn more
                       </span>
@@ -113,13 +113,13 @@ export default function program() {
               <div className="bg-[rgb(0,0,0,0.6)] rounded-b-lg h-20 flex flex-col justify-center">
                 <div className="px-5 py-2 flex justify-between">
                   <div>
-                    <Link href="/curriculum">
+                    <Link href="/study_abroad">
                       <p className="pt-1 text-2xl uppercase">study abroad</p>
                     </Link>
                   </div>
                   <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <Link href="/curriculum">
+                    <Link href="/study_abroad">
                       <span className="self-center pl-2 whitespace-nowrap">
                         Learn more
                       </span>
@@ -134,13 +134,13 @@ export default function program() {
               <div className="rounded-b-lg h-20 flex flex-col justify-center">
                 <div className="px-5 py-2 justify-between">
                   <div>
-                    <Link href="/kmitlxglasgow">
+                    <Link href="/lecturer">
                       <p className="pt-1 text-2xl uppercase">lecturer</p>
                     </Link>
                   </div>
                   <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <Link href="/kmitlxglasgow">
+                    <Link href="/lecturer">
                       <span className="self-center pl-2 whitespace-nowrap">
                         Learn more
                       </span>

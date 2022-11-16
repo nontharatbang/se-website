@@ -8,7 +8,7 @@ export default function collaps(props) {
         className="my-3 h-10 w-full text-xl text-white bg-orange-500 cursor-pointer rounded-md"
         onClick={() => setIsOpen(!isOpen)}
       >
-        {props.label}
+        {props.label} {isOpen ? <span>&#11167;</span> : <span>&#11166;</span>}
       </button>
       <div
         style={
