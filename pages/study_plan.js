@@ -9,7 +9,9 @@ export default function Plan() {
         </div>
       </div>
       <div className="my-10 mx-auto px-10 h-full w-full max-w-[1920px]">
-        <div className="px-10 my-10 w-full flex"></div>
+        <div className="px-10 my-10 w-full flex">
+          <Course avatar={<div>Hello</div>}></Course>
+        </div>
       </div>
     </div>
   );
