@@ -1,4 +1,3 @@
-import styles from "../styles/Program.module.css";
 import Image from "next/image";
 import learnmore_arrow from "../public/learnmore_arrow.svg";
 import Link from "next/Link";
@@ -6,49 +5,57 @@ import Link from "next/Link";
 export default function program() {
   return (
     <div>
-      <div className={styles.hero}>
-        <div className={styles.heading}>
-          <h1 className={styles.h1}>Explore program</h1>
-          <h1 className={styles.h1}>Avaiable at SE@kmitl</h1>
+      <div className="bg-[url('../public/program_background.svg')] bg-cover bg-center min-h-[480px] text-white font-bold">
+        <div>
+          <h1 className="px-20 pt-[140px] text-7xl uppercase">
+            Explore program
+          </h1>
+          <h1 className="px-20 pt-4 text-7xl uppercase">
+            Avaiable at SE@kmitl
+          </h1>
         </div>
       </div>
-      <div className={styles.pagelink}>
-        <div className={styles.letter}>
-          <h3 className={styles.h3}>PROGRAM</h3>
+      <div className="my-0 mx-auto px-10 h-full w-full max-w-[1920px]">
+        <div className="my-8 mx-auto">
+          <h3 className="pl-11 text-2xl font-bold">PROGRAM</h3>
         </div>
-        <div className={styles.row}>
-          <div className={styles.left1}>
-            <div className={styles.curriculum}>
-              <div className={styles.shortbox}>
-                <div className={styles.shortinfo}>
+        <div className="px-10 w-full flex">
+          <div className="max-w-[40%] w-full px-2 flex">
+            <div className="bg-[url('../public/curriculum.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
+              <div className="bg-[rgb(0,0,0,0.6)] rounded-b-lg h-20 flex flex-col justify-center">
+                <div className="px-5 py-2 flex justify-between">
                   <div>
                     <Link href="/curriculum">
-                      <p className={styles.p}>curriculum</p>
+                      <p className="pt-1 text-2xl uppercase">curriculum</p>
                     </Link>
                   </div>
-                  <div className={styles.learnmore}>
+                  <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
                     <Link href="/curriculum">
-                      <span className={styles.span}>Learn more</span>
+                      <span className="self-center pl-2 whitespace-nowrap">
+                        Learn more
+                      </span>
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.right1}>
-            <div className={styles.kmitlxglasgow}>
-              <div className={styles.longbox}>
-                <div className={styles.longinfo}>
+          <div className="max-w-[60%] w-full px-2 flex">
+            <div className="bg-[url('../public/kmitl_glasgow.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
+              <div className="rounded-b-lg h-20 flex flex-col justify-center">
+                <div className="px-5 py-2 justify-between">
                   <div>
                     <Link href="/kmitl_glasgow">
-                      <p className={styles.p}>kmitl - glasgow</p>
+                      <p className="pt-1 text-2xl uppercase">kmitl x glasgow</p>
                     </Link>
                   </div>
-                  <div className={styles.learnmore}>
+                  <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
                     <Link href="/kmitl_glasgow">
-                      <span className={styles.span}>Learn more</span>
+                      <span className="self-center pl-2 whitespace-nowrap">
+                        Learn more
+                      </span>
                     </Link>
                   </div>
                 </div>
@@ -56,39 +63,43 @@ export default function program() {
             </div>
           </div>
         </div>
-        <div className={styles.row}>
-          <div className={styles.left2}>
-            <div className={styles.studyplan}>
-              <div className={styles.longbox}>
-                <div className={styles.longinfo}>
+        <div className="px-10 w-full flex">
+          <div className="max-w-[60%] w-full px-2 flex">
+            <div className="bg-[url('../public/study_plan.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
+              <div className="rounded-b-lg h-20 flex flex-col justify-center">
+                <div className="px-5 py-2 justify-between">
                   <div>
-                    <Link href="/studyplan">
-                      <p className={styles.p}>Study plan</p>
+                    <Link href="/study_plan">
+                      <p className="pt-1 text-2xl uppercase">Study plan</p>
                     </Link>
                   </div>
-                  <div className={styles.learnmore}>
+                  <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <Link href="/studyplan">
-                      <span className={styles.span}>Learn more</span>
+                    <Link href="/study_plan">
+                      <span className="self-center pl-2 whitespace-nowrap">
+                        Learn more
+                      </span>
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.right2}>
-            <div className={styles.internship}>
-              <div className={styles.shortbox}>
-                <div className={styles.shortinfo}>
+          <div className="max-w-[40%] w-full px-2 flex">
+            <div className="bg-[url('../public/internship.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
+              <div className="bg-[rgb(0,0,0,0.6)] rounded-b-lg h-20 flex flex-col justify-center">
+                <div className="px-5 py-2 flex justify-between">
                   <div>
                     <Link href="/internship">
-                      <p className={styles.p}>Internship</p>
+                      <p className="pt-1 text-2xl uppercase">Internship</p>
                     </Link>
                   </div>
-                  <div className={styles.learnmore}>
+                  <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
                     <Link href="/internship">
-                      <span className={styles.span}>Learn more</span>
+                      <span className="self-center pl-2 whitespace-nowrap">
+                        Learn more
+                      </span>
                     </Link>
                   </div>
                 </div>
@@ -96,39 +107,43 @@ export default function program() {
             </div>
           </div>
         </div>
-        <div className={styles.row}>
-          <div className={styles.left1}>
-            <div className={styles.studyabroad}>
-              <div className={styles.shortbox}>
-                <div className={styles.shortinfo}>
+        <div className="px-10 w-full flex">
+          <div className="max-w-[40%] w-full px-2 flex">
+            <div className="bg-[url('../public/study_abroad.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
+              <div className="bg-[rgb(0,0,0,0.6)] rounded-b-lg h-20 flex flex-col justify-center">
+                <div className="px-5 py-2 flex justify-between">
                   <div>
-                    <Link href="/studyabroad">
-                      <p className={styles.p}>study abroad</p>
+                    <Link href="/study_abroad">
+                      <p className="pt-1 text-2xl uppercase">study abroad</p>
                     </Link>
                   </div>
-                  <div className={styles.learnmore}>
+                  <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <Link href="/studyabroad">
-                      <span className={styles.span}>Learn more</span>
+                    <Link href="/study_abroad">
+                      <span className="self-center pl-2 whitespace-nowrap">
+                        Learn more
+                      </span>
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.right1}>
-            <div className={styles.lecturer}>
-              <div className={styles.longbox}>
-                <div className={styles.longinfo}>
+          <div className="max-w-[60%] w-full px-2 flex">
+            <div className="bg-[url('../public/lecturer.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
+              <div className="rounded-b-lg h-20 flex flex-col justify-center">
+                <div className="px-5 py-2 justify-between">
                   <div>
                     <Link href="/lecturer">
-                      <p className={styles.p}>lecturer</p>
+                      <p className="pt-1 text-2xl uppercase">lecturer</p>
                     </Link>
                   </div>
-                  <div className={styles.learnmore}>
+                  <div className="flex flex-wrap py-2">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
                     <Link href="/lecturer">
-                      <span className={styles.span}>Learn more</span>
+                      <span className="self-center pl-2 whitespace-nowrap">
+                        Learn more
+                      </span>
                     </Link>
                   </div>
                 </div>
