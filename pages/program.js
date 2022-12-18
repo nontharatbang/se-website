@@ -92,7 +92,7 @@ export default function program() {
             </div>
           </div>
           <div className="max-w-[40%] w-full px-2 flex">
-            <div className="bg-[url('../public/internship.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
+            <div className="bg-[url('../public/internshipp.svg')] bg-cover rounded-lg h-[390px] w-full my-4 flex flex-col justify-end text-white font-bold">
               <div className="bg-[rgb(0,0,0,0.6)] rounded-b-lg h-20 flex flex-col justify-center">
                 <div className="px-5 py-2 flex justify-between">
                   <div>

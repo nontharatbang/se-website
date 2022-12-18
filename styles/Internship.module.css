@@ -1,0 +1,83 @@
+.hero {
+    background: url("../public/internshipp.svg");
+    background-size: cover;
+    background-position: bottom;
+    height: 480px;
+  }
+  
+  .heading {
+    padding: 200px 100px;
+  }
+  
+  .h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .container {
+    margin: 80px 0;
+    margin-bottom: 200px;
+  }
+  
+  .row {
+    margin: 50px auto;
+    height: 100%;
+    padding: 0 var(--padding);
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+  }
+  
+  .row2 {
+    margin: 50px auto;
+    height: 100%;
+    padding: 0 var(--padding);
+    width: 100%;
+    max-width: 1920px;
+  }
+  
+  .structure {
+    margin-bottom: 40px;
+  }
+  
+  .imagecontainer {
+    margin: 10px auto;
+  }
+  
+  .left {
+    max-width: 40%;
+    width: 100%;
+  }
+  .right {
+    max-width: 60%;
+    width: 100%;
+  }
+  
+  .p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+  
+  .collapscontainer {
+    margin: 50px auto;
+    height: 100%;
+    padding: 0 var(--padding);
+    width: 100%;
+    max-width: 1920px;
+  }
+  
