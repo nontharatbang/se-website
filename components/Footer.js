@@ -10,49 +10,49 @@ import email from "../public/email.svg";
 
 export default function Footer() {
   return (
-    <div className={styles.footerbackground}>
-      <div className={styles.footerbox}>
-        <div className={styles.footerinfo}>
-          <div className={styles.leftbox}>
-            <div className={styles.box}>
-              <div className={styles.logo}>
+    <div className="bg-black text-white mt-16 text-center">
+      <div className="max-w-[1920px] my-0 mx-auto py-0 px-10 flex flex-col">
+        <div className="pt-10 flex">
+          <div className="max-w-[50%] w-full pr-2.5 flex justify-end">
+            <div className="w-[30%] flex flex-col">
+              <div className="p-2.5 flex justify-center">
                 <Image src={logo} alt="SeLogo" />
               </div>
-              <p className={styles.footerP}>
+              <p className="p-2.5">
                 King Mongkut's Institute of Technology Ladkrabang
               </p>
-              <div className={styles.iconlink}>
-                <a className={styles.link}>
+              <div className="{styles.iconlink}">
+                <a className="p-2.5">
                   <Image src={facebook} alt="facebook" />
                 </a>
-                <a className={styles.link}>
+                <a className="p-2.5">
                   <Image src={instagram} alt="facebook" />
                 </a>
-                <a className={styles.link}>
+                <a className="p-2.5">
                   <Image src={twitter} alt="facebook" />
                 </a>
               </div>
             </div>
           </div>
-          <div className={styles.rightbox}>
-            <div className={styles.box}>
-              <p className={styles.contactP}>CONTACT US</p>
-              <div className={styles.row}>
+          <div className="max-w-[50%] w-full pl-2.5 flex justify-start">
+            <div className="w-[30%] flex flex-col">
+              <p className="p-2.5 text-left">CONTACT US</p>
+              <div className="p-2.5 flex">
                 <Image src={location} alt="location" />
-                <p className={styles.contactinfoP}>ECC704</p>
+                <p className="px-2.5">ECC704</p>
               </div>
-              <div className={styles.row}>
+              <div className="p-2.5 flex">
                 <Image src={phone} alt="phone" />
-                <p className={styles.contactinfoP}>000-1111111</p>
+                <p className="px-2.5">000-1111111</p>
               </div>
-              <div className={styles.row}>
+              <div className="p-2.5 flex">
                 <Image src={email} alt="email" />
-                <p className={styles.contactinfoP}>se@email.com</p>
+                <p className="px-2.5">se@email.com</p>
               </div>
             </div>
           </div>
         </div>
-        <p className={styles.footerP}>
+        <p className="p-2.5">
           © 2022 INTERNATIONAL COLLEGE, KING MONGKUT'S INSTITUTE OF TECHNOLOGY
           LADKRABANG
         </p>
