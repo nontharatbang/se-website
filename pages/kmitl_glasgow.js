@@ -1,7 +1,7 @@
 import Image from "next/image";
 import glasgow_icon from "../public/glasgow_icon.svg";
 import Link from "next/Link";
-import Collaps from "../components/collaps.js";
+import Collaps from "../components/Collaps.js";
 
 export default function curriculum() {
   return (
