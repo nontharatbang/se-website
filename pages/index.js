@@ -20,7 +20,7 @@ export default function Home() {
           <div className="max-w-[50%] w-full flex flex-col justify-start pl-10">
             <p className="pt-2">Upcoming Admission Round 1</p>
             <p className="pt-2">Dec 2022</p>
-            <div className="flex flex-wrap pt-2 pb-4">
+            <div className="flex flex-wrap mb-2 pt-2 pb-4">
               <Image src={learnmore_arrow} alt="learnmore arrow" />
               <span className="self-center pl-2 whitespace-nowrap">
                 Learn more about the course
@@ -34,7 +34,7 @@ export default function Home() {
           <div className="max-w-[50%] w-full flex flex-col justify-end pr-10">
             <div className="bg-[url('../public/program_link.svg')] bg-cover h-64 w-full my-5 p-0 flex flex-col justify-end text-white font-bold">
               <div className="bg-[rgb(0,0,0,0.6)] flex flex-col justify-center">
-                <div className="px-4 py-4 flex justify-between">
+                <div className="px-6 py-4 flex justify-between">
                   <div>
                     <h3 className="text-2xl">PROGRAM</h3>
                     <p className="text-base">Software Engineering program</p>
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div className="bg-[url('../public/event_link.svg')] bg-cover h-64 w-full my-5 p-0 flex flex-col justify-end text-white font-bold">
               <div className="bg-[rgb(0,0,0,0.6)] flex flex-col justify-center">
-                <div className="px-4 py-4 flex justify-between">
+                <div className="px-6 py-4 flex justify-between">
                   <div>
                     <h3 className="text-2xl">EVENT</h3>
                     <p className="text-base">Software Engineering event</p>
@@ -68,7 +68,7 @@ export default function Home() {
           <div className="max-w-[50%] w-full flex flex-col justify-start pl-10">
             <div className="bg-[url('../public/news_link.svg')] bg-cover h-[34.5rem] w-full my-5 p-0 flex flex-col justify-end text-white font-bold">
               <div className="bg-[rgb(0,0,0,0.6)] flex flex-col justify-center">
-                <div className="px-4 py-[1.375rem] flex justify-between">
+                <div className="px-6 py-[1.375rem] flex justify-between">
                   <div className="flex flex-col justify-center">
                     <p className="text-2xl">
                       There is a flood due to heavy rain in KMITL
