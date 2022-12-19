@@ -11,7 +11,7 @@ export default function program() {
             Explore program
           </h1>
           <h1 className="px-20 pt-4 text-7xl uppercase">
-            Avaiable at SE@kmitl
+            Avaliable at SE@kmitl
           </h1>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default function program() {
                   <div>
                     <Link href="/kmitl_glasgow">
                       <p className="pt-1 text-2xl uppercase cursor-pointer">
-                        kmitl x glasgow
+                        kmitl - glasgow
                       </p>
                     </Link>
                   </div>
@@ -75,7 +75,7 @@ export default function program() {
                   <div>
                     <Link href="/study_plan">
                       <p className="pt-1 text-2xl uppercase cursor-pointer">
-                        Study plan
+                        Study plans
                       </p>
                     </Link>
                   </div>
