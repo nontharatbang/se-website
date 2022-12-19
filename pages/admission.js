@@ -528,19 +528,323 @@ export default function admission() {
               proficiency Test score and obtain a score which meets the minimum
               requirement specified below:
             </h2>
+            <div class="overflow-x-auto relative">
+              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                  <tr>
+                    <th scope="col" class="py-3 px-6">
+                      {" "}
+                      English Proficiency Test{" "}
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                      {" "}
+                      Minimum Score{" "}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      TOEFL - paper-based
+                    </th>
+                    <td class="py-4 px-6">550 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      TOEFL - CBT
+                    </th>
+                    <td class="py-4 px-6">213 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      TOEFL - IBT
+                    </th>
+                    <td class="py-4 px-6">79 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      IELTS
+                    </th>
+                    <td class="py-4 px-6"> 6</td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      Cambridge English Exams FCE or CAE or CPE
+                    </th>
+                    <td class="py-4 px-6">170 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      IB - English A1 or A2
+                    </th>
+                    <td class="py-4 px-6"> 4 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      IB - English B (HL)
+                    </th>
+                    <td class="py-4 px-6">5 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      KMITL-TEP
+                    </th>
+                    <td class="py-4 px-6"> B2 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h2 class="mb-2 text-lg font-semibold ">
+              <br /> Remark: <br /> The applicants for Software Engineering are
+              required to meet one of these additional requirements.
+            </h2>
+            <ul class="space-y-1 list-decimal list-inside">
+              <li>Applicants who have an English proficiency score meeting with minimum or over requirement can be admitted without conditions 
+                (The score has to be valid not more than 2 years from the date of application deadline).</li>
+              <li>
+              Applicants who do not submit any English proficiency test score or have lower than the required can be conditionally accepted by 
+              taking SIIE Pre-sessional English Course for 30 hours before the start of the first semester and enrolling in additional English as a Second Language (ESL) 
+              courses at KMITL in the first semester.
+              </li>
+            </ul>
+            <h2 class="mb-2 text-lg font-semibold ">
+              <br /> Personal Statement : <br/> Please write an essay (650 words or fewer) that demonstrates your ability to communicate your thoughts and your related experience in the field of study.
+            </h2>
+            <h2 class="mb-2 text-lg font-semibold ">
+              <br /> Two Recommendation Letters : <br /> The applicant should upload PDFs or JPG snapshots of the letters of recommendation from your advisors or teachers.
+            </h2>
           </div>
         </div>
         <div className="px-10 my-10 w-full flex">
           <div className="max-w-[40%] w-full px-2 flex">
             <h2 className="text-2xl font-bold">Admissions Schedule</h2>
           </div>
+          <div class="overflow-x-auto relative">
+              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                  <tr>
+                    <th scope="col" class="py-3 px-6">
+                      {" "}
+                      Details{" "}
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                      {" "}
+                      Dates{" "}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      1. Application filing and Application Fee Payment Period <br/>  <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
+                        {" "}
+                        http://new.reg.kmitl.ac.th/admission
+                      </a></Link>
+                    </th>
+                    <td class="py-4 px-6"> Now - December 23, 2022 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      2. Interview Candidate Notification <br/>  <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
+                        {" "}
+                        http://new.reg.kmitl.ac.th/admission
+                      </a></Link>
+                    </th>
+                    <td class="py-4 px-6">January 10, 2023 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      3. Candidate Interview Date
+                    </th>
+                    <td class="py-4 px-6">January 15, 2023 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      4. Interview Result Announcement <br /> <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
+                        {" "}
+                        http://new.reg.kmitl.ac.th/admission
+                      </a></Link>
+                    </th>
+                    <td class="py-4 px-6"> January 27, 2023 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      5. TCAS Clearing House (for Thai Nationality only)
+                    </th>
+                    <td class="py-4 px-6"> Feb 7-8, 2023 </td>
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      {" "}
+                      6 . Enrollment Confirmation and Tuition Fee Payment <br/> <Link href = "http://www.reg.kmitl.ac.th"><a className="text-blue-800">
+                        {" "}
+                        http://www.reg.kmitl.ac.th
+                      </a></Link>
+                    </th>
+                    <td class="py-4 px-6"> Feb 17-23, 2023 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+        <div className="px-10 my-10 w-full flex">
+          <div className="max-w-[40%] w-full px-2 flex">
+            <h2 className="text-2xl font-bold">
+              Application Submission
+            </h2>
+          </div>
+          <div className="max-w-[60%] w-full px-2 flex">
+            <ul className="steps steps-vertical lg:steps-horizontal">
+              <li className="step step-primary">Applicants must apply via online application system</li>
+              <li className="step step-primary">Applicants must print out the pay in slip to deposit a 1000 baht non refundable application fee through any Kasikorn Bank (KBank) counter (with 10 Baht fee) or scanning barcode via any Mobile Banking application (no fees charged).</li>
+              <li className="step step-primary">Applicants must upload all necessary documents as the following in 1 pdf file (up to 4MB insize only) to online application system with subject filename as Application ID.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="px-10 my-10 w-full flex">
+          <div className="max-w-[40%] w-full px-2 flex">
+            <h2 className="text-2xl font-bold">
+            Tuition Fees and Enrollment Confirmation
+            </h2>
+          </div>
           <div className="max-w-[60%] w-full px-2">
-            <h2 class="mb-2 text-lg font-semibold ">
-              Should you have any problem or question, please contact:
+            <h2 class="mb-2 text-lg font-semibold ">The tuition fees for Software Engineering programs in Academic Year 2023 are as follows:</h2>
+            <div class="overflow-x-auto relative">
+            <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400">
+              <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                  <th scope="col" class="py-3 px-6">
+                    {" "}
+                    No.{" "}
+                  </th>
+                  <th scope="col" class="py-3 px-6">
+                    {" "}
+                    Programs{" "}
+                  </th>
+                  <th scope="col" class="py-3 px-6">
+                    {" "}
+                    THB/Semester{" "}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <th
+                    scope="row"
+                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  >
+                    {" "}
+                    1
+                  </th>
+                  <td class="py-4 px-6"> Software Engineering</td>
+                  <td class="py-4 px-6"> 90,000 </td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+        <div className="px-10 my-10 w-full flex">
+          <div className="max-w-[40%] w-full pr-10">
+            <h2 className="text-2xl font-bold">
+            Scholarships
             </h2>
-            <h2 class="mb-2 text-lg font-semibold ">
-              Internship advisor: Dr. Natthapong Jungteerapanich
+          </div>
+          <div className="max-w-[60%] w-full px-2">
+            <h2 class="mb-2 text-lg font-semibold ">Academic Excellence Freshmen Scholarship is offered to applicants with excellent academic performances to pursue 
+            their undergraduate education in the international programs, the School of Engineering at KMITL. The scholarship will be granted for 1st year students with 
+            exceptional academic records. More than 40 scholarships can be awarded. <br /> Minimum Academic requirement:</h2>
+            <ul class="space-y-1 list-disc list-inside">
+              <li>
+              Achieved SAT I General test composite score at least 85 world percentiles
+              </li>
+              <li>Achieved TOEFL score at least 550 (paper) or 213 (CBT), or 79 (IBT), or Achieve IELTS score at least 6.0.
+              </li>
+            </ul>
+            <h2 class="mb-2 text-lg font-semibold "> <br/ >Scholarship result will be announced on February (before TCAS clearing house period). Those who're selected will receive the offer letter directly to their email.</h2>
+          </div>
+        </div>
+        <div className="px-10 my-10 w-full flex">
+          <div className="max-w-[40%] w-full pr-10">
+            <h2 className="text-2xl font-bold">
+            Contact Information 
             </h2>
+          </div>
+          <div className="max-w-[60%] w-full px-2">
+            <h2 class="mb-2 text-lg font-semibold ">For additional information of Admissions , please contact SIIE office, Faculty of Engineering, KMITL</h2>
+            <ul class="space-y-1 list-disc list-inside">
+              <li>Phone: +66(0)994961526, +66(0)23298301 Ex 218 ● Line: @siie_kmitl
+              </li>
+              <li>Email: siie-admission@kmitl.ac.th
+              </li>
+              <li>Facebook: https://www.facebook.com/KMITL.SIIE
+              </li>
+            </ul>
+            <h2 class="mb-2 text-lg font-semibold "> For additional information of Software Engineering</h2>
+            <ul class="space-y-1 list-disc list-inside">
+              <li> Contact person: Asst.Prof.Dr.Visit Hirankitti o Mobile Phone +(0)80454 9990
+              </li>
+              <li> Email: visit.hi@kmitl.acth
+              </li>
+              <li> Website:http://www.se.kmitl.ac.th
+              </li>
+              <li> Facebook: https://www.facebook.com/sekmitl</li>
+            </ul>
           </div>
         </div>
       </div>
