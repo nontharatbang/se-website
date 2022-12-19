@@ -24,9 +24,6 @@ export default function Navbar() {
           <li>
             <Link href="/news">News</Link>
           </li>
-          <li>
-            <Link href="/event">Event</Link>
-          </li>
         </ul>
       </div>
     </nav>

@@ -295,7 +295,7 @@ export default function internship() {
                   >
                     {" "}
                     1. Apply for internship <br /> Every student who is planning
-                    to undertake an internship in the upcoming summer semester
+                    to undertake an internship <br /> in the upcoming summer semester
                     must apply for an internship position in a company.
                   </th>
                   <td class="py-4 px-6"> Until 13 March 2020 </td>
@@ -309,7 +309,7 @@ export default function internship() {
                     2. Registration (on-line) <br /> Every student taking an
                     internship must register for the course"13016004 Software
                     Industrial Internship in Summer". <br /> Registration is
-                    done on the University's on-line registry system. If this
+                    done on the University's on-line registry system. <br/> If this
                     course is the only course you register in the summer
                     semester, you will not be charged the tuition fee.{" "}
                   </th>
@@ -334,7 +334,7 @@ export default function internship() {
                   >
                     {" "}
                     4. Internship <br /> During the internship, you are expected
-                    to work full time in the host company, and follow the normal
+                    to work full time in the host company, <br /> and follow the normal
                     regulation of the company. Your internship may begin before
                     or finish after this period.{" "}
                   </th>
@@ -351,9 +351,9 @@ export default function internship() {
                     {" "}
                     5. Presentation and assessment <br /> After completing the
                     internship, you are required to submit an internship report
-                    and give a presentation to the internship assessment
-                    committee. <br /> Submit your internship report on Moodle
-                    here:
+                    and give a presentation <br/> to the internship assessment
+                    committee. Submit your internship report on Moodle
+                    here:<br/> 
                     <Link href="https://www.ic.kmitl.ac.th/moodle/course/view.php?id=27#section-5">
                       <a className="text-blue-800">
                         {" "}
