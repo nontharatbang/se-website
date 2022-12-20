@@ -11,7 +11,7 @@ export default function Navbar() {
             <Image src={logo} alt="SeLogo" />
           </Link>
         </div>
-        <ul className="grid grid-cols-5 gap-x-8 justify-end items-center text-center text-black font-bold">
+        <ul className="grid grid-cols-4 gap-x-8 justify-end items-center text-center text-black font-bold">
           <li>
             <Link href="/about">About</Link>
           </li>
