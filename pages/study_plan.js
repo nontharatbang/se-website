@@ -50,7 +50,9 @@ export default function Plan({ courses }) {
                 onChange={handleChange}
                 value={year || ""}
               >
-                <option value={""}>Select Year</option>
+                <option disabled value={""}>
+                  Select Year
+                </option>
                 <option value={"1"}>Year 1</option>
                 <option value={"2"}>Year 2</option>
                 <option value={"3"}>Year 3</option>
@@ -65,7 +67,9 @@ export default function Plan({ courses }) {
                 onChange={handleChange}
                 value={semester || ""}
               >
-                <option value={""}>Select Semester</option>
+                <option disabled value={""}>
+                  Select Semester
+                </option>
                 <option value={"1"}>Semester 1</option>
                 <option value={"2"}>Semester 2</option>
               </select>
