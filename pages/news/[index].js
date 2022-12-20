@@ -50,7 +50,7 @@ export default function news({ crews, maxIndex }) {
               </p>
               <div className="card-actions justify-end">
                 <button className="btn hover:bg-orange-400 bg-orange-400 text-white">
-                  Read Now
+                  <Link href="/news/newsinfo">Read Now(Chang this later)</Link>
                 </button>
               </div>
             </div>
