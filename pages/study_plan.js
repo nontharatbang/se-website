@@ -112,7 +112,7 @@ export default function Plan({ courses }) {
 }
 
 export async function getServerSideProps() {
-  const { data } = await axios.get("http://127.0.0.1:8000/courses/");
+  const { data } = await axios.get("http://127.0.0.1:8000/courses/?limit=99");
   return {
     props: {
       courses: data.results,
