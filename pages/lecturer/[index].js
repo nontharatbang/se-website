@@ -49,7 +49,7 @@ export default function lecturer({ crews, maxIndex }) {
             {crews.map((crew) => (
               <div className="w-[25%] p-4 box-border">
                 <Profile
-                  role={crew.role}
+                  role="Professor"
                   name={crew.name}
                   tel={crew.name}
                   email={crew.email}
