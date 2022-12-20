@@ -61,7 +61,7 @@ export default function lecturer({ crews, maxIndex }) {
             ))}
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="pt-10 flex justify-center">
           <div className="w-[20%] btn-group grid grid-cols-2">
             <button
               className="btn btn-outline"
