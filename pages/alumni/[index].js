@@ -5,7 +5,7 @@ import axios from "axios";
 import React from "react";
 import Link from "next/Link";
 
-export default function lecturer({ crews, maxIndex }) {
+export default function alumni({ crews, maxIndex }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   function previousClickHandler(index) {
