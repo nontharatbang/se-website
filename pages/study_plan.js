@@ -1,6 +1,37 @@
 import axios from "axios";
+import { useState } from "react";
 
 export default function Plan({ courses }) {
+  const [year, setYear] = useState(null);
+  const [semester, setSemester] = useState(null);
+  const [query, setQuery] = useState("");
+
+  const searchFilter = (array) => {
+    return array.filter(
+      (el) =>
+        el.coursename.includes(query) &&
+        (year == null || el.year == year) &&
+        (semester == null || el.semester == semester)
+    );
+  };
+
+  const filtered = searchFilter(courses);
+
+  const handleChange = (e) => {
+    if (e.target.name == "year" || e.target.name == "semester") {
+      setQuery("");
+    }
+    if (e.target.name == "year") {
+      setYear(e.target.value);
+    }
+    if (e.target.name == "semester") {
+      setSemester(e.target.value);
+    }
+  };
+  const clearFilter = () => {
+    setYear(null);
+    setSemester(null);
+  };
   return (
     <div>
       <div className="bg-[url('../public/study_plan.svg')] bg-cover bg-center min-h-[480px] text-white font-bold">
@@ -10,7 +41,42 @@ export default function Plan({ courses }) {
       </div>
       <div className="my-10 mx-auto px-10 h-full w-full max-w-[1920px]">
         <div className="px-10 my-10 w-full">
-          {courses.map((course) => (
+          <div className="my-5 mx-5 flex">
+            <div className="mr-2">
+              <select
+                className="select w-full max-w-[10rem]"
+                labelId="year"
+                name="year"
+                onChange={handleChange}
+                value={year || ""}
+              >
+                <option value={""}>Select Year</option>
+                <option value={"1"}>Year 1</option>
+                <option value={"2"}>Year 2</option>
+                <option value={"3"}>Year 3</option>
+                <option value={"4"}>Year 4</option>
+              </select>
+            </div>
+            <div className="mx-2">
+              <select
+                className="select w-full max-w-[10rem]"
+                labelId="semester"
+                name="semester"
+                onChange={handleChange}
+                value={semester || ""}
+              >
+                <option value={""}>Select Semester</option>
+                <option value={"1"}>Semester 1</option>
+                <option value={"2"}>Semester 2</option>
+              </select>
+            </div>
+            <div className="mx-2">
+              <button className="btn btn-outline" onClick={clearFilter}>
+                Clear Filter
+              </button>
+            </div>
+          </div>
+          {filtered.map((course) => (
             <div className="px-5">
               <div
                 tabIndex={0}
