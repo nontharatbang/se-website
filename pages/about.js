@@ -1,6 +1,6 @@
 export default function about() {
   return (
-    <div>
+    <div className="mt-28">
       <div className="bg-[url('../public/about_background.svg')] bg-cover bg-center min-h-[480px] text-white font-bold" />
       <div className="py-10">
         <div className="mx-20 py-10">

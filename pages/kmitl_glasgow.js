@@ -5,7 +5,7 @@ import Collaps from "../components/Collaps.js";
 
 export default function curriculum() {
   return (
-    <div>
+    <div className="mt-28">
       <div className="bg-[url('../public/glasgow_background.svg')] bg-cover bg-center min-h-[480px] text-white font-bold">
         <div>
           <h1 className="px-20 pt-[200px] text-7xl uppercase">

@@ -4,7 +4,7 @@ import Link from "next/Link";
 
 export default function program() {
   return (
-    <div>
+    <div className="mt-28">
       <div className="bg-[url('../public/program_background.svg')] bg-cover bg-center min-h-[480px] text-white font-bold">
         <div>
           <h1 className="px-20 pt-[140px] text-7xl uppercase">

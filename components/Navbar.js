@@ -4,7 +4,7 @@ import logo from "../public/SElogo.svg";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white h-28 w-full px-10 flex flex-col justify-center z-auto sm:px-4 py-2.5 fixed z-20 top-0 left-0 border-b border-gray-200 ">
+    <nav className="bg-white h-28 w-full px-10 flex flex-col justify-center z-auto fixed z-20 top-0 left-0 border-b border-gray-200 ">
       <div className="flex justify-between items-center">
         <div>
           <Link href="/">
