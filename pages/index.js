@@ -6,7 +6,7 @@ import axios from "axios";
 
 export default function Home({ profs, alumni }) {
   return (
-    <div>
+    <div className="mt-28">
       <div className="bg-[url('../public/index_background.svg')] bg-cover bg-center min-h-808 text-white font-bold">
         <div>
           <h1 className="m-0 pt-72 text-8xl font-bold text-center">
