@@ -144,7 +144,7 @@ export default function program() {
               <div className="rounded-b-lg h-20 flex flex-col justify-center">
                 <div className="px-5 py-2 justify-between">
                   <div>
-                    <Link href="/lecturer">
+                    <Link href="/lecturer/0">
                       <p className="pt-1 text-2xl uppercase cursor-pointer">
                         lecturer
                       </p>
@@ -152,7 +152,7 @@ export default function program() {
                   </div>
                   <div className="flex flex-wrap py-2 cursor-pointer">
                     <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <Link href="/lecturer">
+                    <Link href="/lecturer/0">
                       <span className="self-center pl-2 whitespace-nowrap">
                         Learn more
                       </span>

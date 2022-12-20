@@ -11,21 +11,21 @@ export default function lecturer({ crews, maxIndex }) {
   function previousClickHandler(index) {
     if (index >= 0) {
       setCurrentIndex(index);
-      Router.push(`/lecturer/${index}`);
+      Router.push(`/alumni/${index}`);
     }
   }
 
   function nextClickHandler(index) {
     if (index < maxIndex) {
       setCurrentIndex(index);
-      Router.push(`/lecturer/${index}`);
+      Router.push(`/alumni/${index}`);
     }
   }
 
   return (
     <div>
-      <div className="bg-[url('../public/lecturer_bg.svg')] bg-cover bg-top min-h-[480px] text-white font-bold flex flex-col justify-center">
-        <h1 className="px-20 text-7xl uppercase">Lecturer</h1>
+      <div className="bg-[url('../public/alumni_bg.svg')] bg-cover bg-top min-h-[480px] text-white font-bold flex flex-col justify-center">
+        <h1 className="px-20 text-7xl uppercase">Alumni</h1>
       </div>
       <div className="my-10 mx-auto px-10  h-full w-full max-w-[1920px]">
         <div className="flex">
@@ -87,7 +87,7 @@ export async function getServerSideProps(context) {
   const offset = id.index * 12; //offset = index * 12(item per page)
 
   const { data } = await axios.get(
-    `http://127.0.0.1:8000/professors/?limit=12&offset=${offset}`
+    `http://127.0.0.1:8000/alumni/?limit=12&offset=${offset}`
   );
 
   const totalPage = Math.ceil(data.count / 12);

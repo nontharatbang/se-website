@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Profile from "../components/Profile.js";
 import learnmore_arrow from "../public/learnmore_arrow.svg";
+import Link from "next/Link";
 
 export default function Home() {
   return (
@@ -96,23 +97,27 @@ export default function Home() {
             <Profile />
             <Profile />
           </div>
-          <div className="bg-[#989898] rounded-md py-2.5 px-11 flex flex-wrap self-center text-white">
-            <p className={"text-base"}>Show More</p>
+          <div className="bg-[#989898] rounded-md py-2.5 px-11 flex flex-wrap self-center text-white cursor-pointer">
+            <Link href="/lecturer/0">
+              <p className={"text-base"}>Show More</p>
+            </Link>
           </div>
         </div>
       </div>
       <div className="my-0 mx-auto h-full w-full max-w-[1920px] px-10">
         <div className="flex flex-col pt-16">
-          <h3 className="text-4xl">OUR LECTURERS</h3>
-          <p>Professionals that works with us</p>
+          <h3 className="text-4xl">OUR ALUMNI</h3>
+          <p>Respectable seniors</p>
           <div className="flex self-center py-10">
             <Profile />
             <Profile />
             <Profile />
             <Profile />
           </div>
-          <div className="bg-[#989898] rounded-md py-2.5 px-11 flex flex-wrap self-center text-white">
-            <p className="text-base">Show More</p>
+          <div className="bg-[#989898] rounded-md py-2.5 px-11 flex flex-wrap self-center text-white cursor-pointer">
+            <Link href="/alumni/0">
+              <p className="text-base">Show More</p>
+            </Link>
           </div>
         </div>
       </div>
