@@ -61,7 +61,7 @@ export default function Home({ profs, alumni }) {
                 </div>
               </div>
             </div>
-            <div className="bg-[url('../public/event_link.svg')] bg-cover h-64 w-full my-5 p-0 flex flex-col justify-end text-white font-bold">
+            <div className="bg-[url('../public/news_index.svg')] bg-cover h-64 w-full my-5 p-0 flex flex-col justify-end text-white font-bold">
               <div className="bg-[rgb(0,0,0,0.6)] flex flex-col justify-center">
                 <div className="px-6 py-4 flex justify-between">
                   <div className="cursor-pointer">
