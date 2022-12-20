@@ -23,7 +23,7 @@ export default function news({ crews, maxIndex }) {
   }
 
   return (
-    <div>
+    <div className="mt-28">
       <div className="bg-[url('../public/news_bg.svg')] bg-cover bg-top min-h-[480px] text-white font-bold flex flex-col justify-center">
         <h1 className="px-20 text-7xl uppercase">News</h1>
       </div>
