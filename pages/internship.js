@@ -273,7 +273,7 @@ export default function internship() {
           <div className="max-w-[40%] w-full px-2 flex">
             <h2 className="text-2xl font-bold">Procedure and Timetable </h2>
           </div>
-          <div class="overflow-x-auto relative">
+          <div class="relative">
             <table class="w-full text-sm text-left text-gray-500">
               <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 ">
                 <tr>
@@ -295,8 +295,8 @@ export default function internship() {
                   >
                     {" "}
                     1. Apply for internship <br /> Every student who is planning
-                    to undertake an internship <br /> in the upcoming summer semester
-                    must apply for an internship position in a company.
+                    to undertake an internship in the upcoming <br /> summer
+                    semester must apply for an internship position in a company.
                   </th>
                   <td class="py-4 px-6"> Until 13 March 2020 </td>
                 </tr>
@@ -307,11 +307,12 @@ export default function internship() {
                   >
                     {" "}
                     2. Registration (on-line) <br /> Every student taking an
-                    internship must register for the course"13016004 Software
-                    Industrial Internship in Summer". <br /> Registration is
-                    done on the University's on-line registry system. <br/> If this
-                    course is the only course you register in the summer
-                    semester, you will not be charged the tuition fee.{" "}
+                    internship must register for the course <br /> "13016004
+                    Software Industrial Internship in Summer". <br />{" "}
+                    Registration is done on the University's on-line registry
+                    system. If this <br /> course is the only course you
+                    register in the summer semester, you will <br /> not be
+                    charged the tuition fee.{" "}
                   </th>
                   <td class="py-4 px-6"> 3-5 June 2020 </td>
                 </tr>
@@ -322,8 +323,8 @@ export default function internship() {
                   >
                     {" "}
                     3. Pre-internship meeting <br /> A meeting of all the
-                    students taking internships and the internship co-ordinator
-                    will be held near the end of semester 2.{" "}
+                    students taking internships and the <br /> internship
+                    co-ordinator will be held near the end of semester 2.{" "}
                   </th>
                   <td class="py-4 px-6"> TBA </td>
                 </tr>
@@ -334,9 +335,10 @@ export default function internship() {
                   >
                     {" "}
                     4. Internship <br /> During the internship, you are expected
-                    to work full time in the host company, <br /> and follow the normal
-                    regulation of the company. Your internship may begin before
-                    or finish after this period.{" "}
+                    to work full time in the host company, <br /> and follow the
+                    normal regulation of the company. Your internship may begin{" "}
+                    <br />
+                    before or finish after this period.{" "}
                   </th>
                   <td class="py-4 px-6">
                     {" "}
@@ -350,17 +352,18 @@ export default function internship() {
                   >
                     {" "}
                     5. Presentation and assessment <br /> After completing the
-                    internship, you are required to submit an internship report
-                    and give a presentation <br/> to the internship assessment
-                    committee. Submit your internship report on Moodle
-                    here:<br/> 
+                    internship, you are required to submit an internship <br />{" "}
+                    report and give a presentation to the internship assessment
+                    committee. <br /> Submit your internship report on Moodle
+                    here:
+                    <br />
                     <Link href="https://www.ic.kmitl.ac.th/moodle/course/view.php?id=27#section-5">
                       <a className="text-blue-800">
                         {" "}
                         https://www.ic.kmitl.ac.th/moodle/course/view.php?id=27#section-5
                       </a>
                     </Link>{" "}
-                    no later than 15.30 on Fri 14 August 2020.{" "}
+                    <br /> no later than 15.30 on Fri 14 August 2020.{" "}
                   </th>
                   <td class="py-4 px-6">
                     {" "}
