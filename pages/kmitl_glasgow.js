@@ -44,13 +44,13 @@ export default function curriculum() {
           </div>
           <div className="max-w-[60%] w-full px-2 flex">
             <p className="font-medium text-lg leading-7 items-center text-justify">
-              Founded in 1451, theUniversity of Glasgow(Glasgow, United Kingdom)
+              Founded in 1451, the University of Glasgow(Glasgow, United Kingdom)
               is one of the oldest universities in the world, and has been
-              ranked asone of the world's top 100 universities. With its long
+              ranked as one of the world's top 100 universities. With its long
               history in advanced research, the University of Glasgow has been
-              home tosix Nobel-prize winners. The University'sSchool of
-              Computing Sciencehas consistently been ranked in theUK's top 10 in
-              computing. Glasgow'sSoftware Engineering programis one of the
+              home to six Nobel-prize winners. The University'sSchool of
+              Computing Science has consistently been ranked in theUK's top 10 in
+              computing. Glasgow'sSoftware Engineering program is one of the
               first programs in the world that specialize in software
               engineering and is highly respected by software industry.
             </p>
@@ -121,7 +121,7 @@ export default function curriculum() {
               Year 2 of their study in the SE program. Second-year SE students
               who meet the requirements above and wish to apply need to inform
               the SE program director before the end of Year 2 Semester 2 and
-              submit their applications on the UCAS systemno later than 30 June
+              submit their applications on the UCAS system no later than 30 June
               (of the year they are planning to enter UoG) at&nbsp;
               <Link href="https://www.ucas.com/students">
                 <a className="text-blue-800">https://www.ucas.com/students.</a>
@@ -134,7 +134,7 @@ export default function curriculum() {
             1. On the UCAS website above, choose Undergraduate 20xx entry, where
             20xx is the year you are planning to enter UoG, and then select
             "Apply". This should lead you to the application system. You first
-            need toregister. Make sure you provide an email address that you
+            need to register. Make sure you provide an email address that you
             check regularly (could be @kmitl.ac.th address or your personal
             email address). Your given names and your last name that you enter
             when registering should be spelled exactly as written in your
@@ -173,22 +173,22 @@ export default function curriculum() {
             us your transcript as we can obtain it by ourselves.
             <br />
             8. If you satisfy all the requirements, UoG will notify you with
-            anunconditional offer via email. If not, UoG will send you
-            aconditional offer via email, detailing the conditions that you need
+            an unconditional offer via email. If not, UoG will send you
+            a conditional offer via email, detailing the conditions that you need
             to satisfy and the deadline (e.g. IELTS score or final GPA for Year
             2 at KMITL). You must accept the offer within the deadline stated in
             your offer.
             <br />
             9. Once you have been given and accepted an unconditional offer, UoG
             will start preparing aCAS statement for you. UoG will send you
-            adraft of your CAS statement for you to check for correctness. Your
+            a draft of your CAS statement for you to check for correctness. Your
             CAS statement is a summary of your personal information, educational
             records, and your program of study in the UK. The CAS statement will
             be stored in an online server accessible by UK universities and the
             UK immigration department (called the Home Office). Your CAS
             statement will be read by the visa staff when you apply for a visa.
             You should check that all the information is correct and, in
-            particular, thetuition fee listed in the statement is the
+            particular, the tuition fee listed in the statement is the
             20%-discounted rate. Inform UoG if any correction is needed.
             <br />
             10. Once you have confirmed that the draft of your CAS statement is
@@ -200,12 +200,12 @@ export default function curriculum() {
             regarding the registration, student accommodation, internet account,
             etc via email. You can just response to their request. When you are
             asked to register for courses in the upcoming semester, you can
-            ignore that. You are to do thecourse registration when you are in
+            ignore that. You are to do the course registration when you are in
             the UK. Your advisor at UoG will help you with the course
             registration when you arrive at UoG.
             <br />
             12. Regarding the accommodation, UoG will send you an application
-            form for applying for auniversity accommodation. There is a wide
+            form for applying for a university accommodation. There is a wide
             range of options. You can also apply for a private student
             accommodation. For the latter, you can do so by yourself on the web
             any time (even before you receive an offer). You can consult the SE
