@@ -27,55 +27,65 @@ export default function news({ crews, maxIndex }) {
       <div className="bg-[url('../public/news_bg.svg')] bg-cover bg-top min-h-[480px] text-white font-bold flex flex-col justify-center">
         <h1 className="px-20 text-7xl uppercase">News</h1>
       </div>
-      <div className="my-10 mx-auto px-10  h-full w-full max-w-[1920px]">
-        <div className="flex">
-          <div className="w-[20%] flex flex-col">
-            <div className="py-4 px-10">
-              <Link href="/lecturer/0">
-                <button className="text-white text-2xl font-bold btn btn-wide">
-                  Lecturers
+      <div className="my-10 mx-auto px-10 h-full w-full max-w-[1920px]">
+        <div className="px-40 content-center">
+          <div className="card card-side bg-base-100 shadow-xl content-center rounded-sm">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dw7kpdgyk/image/upload/v1671554192/Project/kmitl_news1Edited_2_vdliv6.svg"
+                alt="Movie"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title font-extrabold underline">
+                There is a flood due to heavy rain in KMITL (Heading)
+              </h2>
+              <p className="w-[40rem] font-medium text-lg leading-7 items-center text-justify">
+                11 Sep. 2022 (date)
+                <br />
+                <br />
+                (content) For the past two days, the rain continues to fall
+                without any sign of stopping. Many people have a hard time
+                driving from their home to the university.
+              </p>
+              <div className="card-actions justify-end">
+                <button className="btn hover:bg-orange-400 bg-orange-400 text-white">
+                  Read Now
                 </button>
-              </Link>
-            </div>
-            <div className="py-4 px-10">
-              <Link href="/alumni/0">
-                <button className="text-white text-2xl font-bold btn btn-wide">
-                  Alumni
-                </button>
-              </Link>
-            </div>
-          </div>
-          <div className="w-[80%] flex flex-wrap">
-            {crews.map((crew) => (
-              <div className="w-[25%] p-4 box-border">
-                <Profile
-                  role="Alumni"
-                  name={crew.name}
-                  tel={crew.name}
-                  email={crew.email}
-                  twitter={crew.twitter}
-                  facebook={crew.facebook}
-                  about={crew.about}
-                />
               </div>
-            ))}
+            </div>
           </div>
         </div>
-        <div className="pt-10 flex justify-center">
-          <div className="w-[20%] btn-group grid grid-cols-2">
-            <button
-              className="btn btn-outline"
-              onClick={() => previousClickHandler(currentIndex - 1)}
-            >
-              Previous page
-            </button>
-            <button
-              className="btn btn-outline"
-              onClick={() => nextClickHandler(currentIndex + 1)}
-            >
-              Next
-            </button>
-          </div>
+        <div className="w-[80%] flex flex-wrap">
+          {crews.map((crew) => (
+            <div className="w-[25%] p-4 box-border">
+              <Profile
+                role="Alumni"
+                name={crew.name}
+                tel={crew.name}
+                email={crew.email}
+                twitter={crew.twitter}
+                facebook={crew.facebook}
+                about={crew.about}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="pt-10 flex justify-center">
+        <div className="w-[20%] btn-group grid grid-cols-2">
+          <button
+            className="btn btn-outline"
+            onClick={() => previousClickHandler(currentIndex - 1)}
+          >
+            Previous page
+          </button>
+          <button
+            className="btn btn-outline"
+            onClick={() => nextClickHandler(currentIndex + 1)}
+          >
+            Next
+          </button>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ export default function Navbar() {
             <Link href="/admission">Admission</Link>
           </li>
           <li>
-            <Link href="/news">News</Link>
+            <Link href="/news/0">News</Link>
           </li>
         </ul>
       </div>
