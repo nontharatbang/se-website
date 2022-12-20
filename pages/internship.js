@@ -67,8 +67,8 @@ export default function internship() {
             <h2 className="text-2xl font-bold">Amount of Coding </h2>
           </div>
           <div class="overflow-x-auto relative">
-            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-              <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <table class="w-full text-sm text-left text-black-500">
+              <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                 <tr>
                   <th scope="col" class="py-3 px-6">
                     {" "}
@@ -81,10 +81,10 @@ export default function internship() {
                 </tr>
               </thead>
               <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     High-level languages, such as Python, Visual Basic,
@@ -92,10 +92,10 @@ export default function internship() {
                   </th>
                   <td class="py-4 px-6"> 480 lines </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     HTML + Mark-up/Scripting languages, such as PHP, JavaScript{" "}
@@ -105,10 +105,10 @@ export default function internship() {
                     840 lines (not including the content of the web pages){" "}
                   </td>
                 </tr>
-                <tr class="bg-white dark:bg-gray-800">
+                <tr class="bg-white ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     Lower-level languages, such as C, C++, C#, Objective-C, Java
@@ -274,8 +274,8 @@ export default function internship() {
             <h2 className="text-2xl font-bold">Procedure and Timetable </h2>
           </div>
           <div class="overflow-x-auto relative">
-            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-              <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <table class="w-full text-sm text-left text-black-500">
+              <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                 <tr>
                   <th scope="col" class="py-3 px-6">
                     {" "}
@@ -288,10 +288,10 @@ export default function internship() {
                 </tr>
               </thead>
               <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     1. Apply for internship <br /> Every student who is planning
@@ -300,10 +300,10 @@ export default function internship() {
                   </th>
                   <td class="py-4 px-6"> Until 13 March 2020 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     2. Registration (on-line) <br /> Every student taking an
@@ -315,10 +315,10 @@ export default function internship() {
                   </th>
                   <td class="py-4 px-6"> 3-5 June 2020 </td>
                 </tr>
-                <tr class="bg-white dark:bg-gray-800">
+                <tr class="bg-white ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     3. Pre-internship meeting <br /> A meeting of all the
@@ -327,10 +327,10 @@ export default function internship() {
                   </th>
                   <td class="py-4 px-6"> TBA </td>
                 </tr>
-                <tr class="bg-white dark:bg-gray-800">
+                <tr class="bg-white ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     4. Internship <br /> During the internship, you are expected
@@ -343,10 +343,10 @@ export default function internship() {
                     Late May - Early August 2020 (tentative){" "}
                   </td>
                 </tr>
-                <tr class="bg-white dark:bg-gray-800">
+                <tr class="bg-white ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     5. Presentation and assessment <br /> After completing the

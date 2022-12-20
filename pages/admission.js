@@ -62,14 +62,17 @@ export default function admission() {
           label="Direct Admissions 1-1 (Early Round) : 4 years Bachelor's
               Degree Programs"
         >
-          <p className="font-medium text-lg leading-7 items-center text-justify">
+          <div class=" w-full flex">
+          <div class="max-w-[50%] w-full px-2 py-5 flex">
+          <p className="font-medium text-lg leading-7 items-center text-justify ">
             This is a maximum target number of accepted students for academic
-            year 2023. The program won't open in the next round if the number is
+            year 2023.  <br/> The program won't open in the next round if the number is
             reached.
           </p>
-          <div class="overflow-x-auto relative">
-            <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400">
-              <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          </div>
+          <div class="max-w-[50%] w-full px-2 py-5 flex">
+            <table class="w-3/4 text-sm text-center text-black-500 ">
+              <thead class="text-xs text-black-700 text-center uppercase bg-orange-50">
                 <tr>
                   <th scope="col" class="py-3 px-6">
                     {" "}
@@ -86,10 +89,10 @@ export default function admission() {
                 </tr>
               </thead>
               <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     1
@@ -97,10 +100,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Biomedical Engineering </td>
                   <td class="py-4 px-6"> 40 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     2
@@ -108,10 +111,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Chemical Engineering </td>
                   <td class="py-4 px-6"> 25 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     3
@@ -119,10 +122,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Civil Engineering </td>
                   <td class="py-4 px-6"> 40 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     4
@@ -130,10 +133,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Computer Engineering </td>
                   <td class="py-4 px-6"> 30 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     5
@@ -144,10 +147,10 @@ export default function admission() {
                   </td>
                   <td class="py-4 px-6"> 35 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     6
@@ -158,10 +161,10 @@ export default function admission() {
                   </td>
                   <td class="py-4 px-6"> 25 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     7
@@ -172,10 +175,10 @@ export default function admission() {
                   </td>
                   <td class="py-4 px-6"> 30 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     8
@@ -183,10 +186,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Energy Engineering</td>
                   <td class="py-4 px-6"> 25 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     9
@@ -194,10 +197,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Financial Engineering </td>
                   <td class="py-4 px-6"> 40 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     10
@@ -208,10 +211,10 @@ export default function admission() {
                   </td>
                   <td class="py-4 px-6"> 40 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     11
@@ -219,10 +222,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Mechanical Engineering </td>
                   <td class="py-4 px-6"> 40 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     12
@@ -230,10 +233,10 @@ export default function admission() {
                   <td class="py-4 px-6"> Robotics & AI Engineering</td>
                   <td class="py-4 px-6"> 30 </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     13
@@ -244,79 +247,77 @@ export default function admission() {
               </tbody>
             </table>
           </div>
+          </div>
         </Collaps>
         <Collaps
           label="Direct Admissions 1-2 (First Round) : 5 years Unified
           Bachelor's & Master's Degree Program (KMITL - CMKL)"
         >
-          <p className="font-medium text-lg leading-7 items-center text-justify">
-            Students will spend the first 6 semesters (3 years) at KMITL for
-            bachelor courses, and do the 7th - 8th semester of Bachelor Capstone
-            Projects at CMKL University (CMKL) and School of Engineering, King
-            Mongkut's Institute of Technology Ladkrabang (KMITL) to graduate
-            with a Bachelor's degree at the end of Year 4 at KMITL . The
-            coursework of Master's Degree will start from 7th semester and
-            finish with a Master's degree at the end of Year 5.
+          <div class=" w-full flex">
+          <div class="max-w-[40%] w-full px-2 py-5 flex">
+          <p className="font-medium text-lg leading-7 items-center text-justify ">
+          Students will spend the first 6 semesters (3 years) at KMITL for bachelor courses, and do the 7th - 8th semester of Bachelor Capstone Projects at CMKL University (CMKL) and School of Engineering, King Mongkut's Institute of Technology Ladkrabang (KMITL) to graduate with a Bachelor's degree at the end of Year 4 at KMITL . The coursework of Master's Degree will start from 7th semester and finish with a Master's degree at the end of Year 5.
           </p>
-          <div class="overflow-x-auto relative">
-            <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400">
-              <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          </div>
+          <div class="max-w-[60%] w-full pl-20 py-5 flex">
+            <table class="w-5/6 text-sm text-center text-black-500 ">
+              <thead class="text-xs text-black-700 text-center uppercase bg-orange-50">
                 <tr>
-                  <th scope="col" class="py-3 px-6">
-                    {" "}
-                    No.{" "}
-                  </th>
-                  <th scope="col" class="py-3 px-6">
-                    {" "}
-                    Programs{" "}
-                  </th>
-                </tr>
+                    <th scope="col" class="py-3 px-6">
+                      {" "}
+                      No.{" "}
+                    </th>
+                    <th scope="col" class="py-3 px-6">
+                      {" "}
+                      Programs{" "}
+                    </th>
+                  </tr>
               </thead>
               <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     1
                   </th>
                   <td class="py-4 px-6"> Biomedical Engineering </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     2
                   </th>
                   <td class="py-4 px-6"> Chemical Engineering </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     3
                   </th>
                   <td class="py-4 px-6"> Civil Engineering </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     4
                   </th>
                   <td class="py-4 px-6"> Computer Engineering </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     5
@@ -326,10 +327,10 @@ export default function admission() {
                     Electrical Engineering - Electrical Power major
                   </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     6
@@ -339,10 +340,10 @@ export default function admission() {
                     Electrical Engineering - Mechatronics major{" "}
                   </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     7
@@ -352,20 +353,20 @@ export default function admission() {
                     Engineering Management and Entrepreneurship{" "}
                   </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     8
                   </th>
                   <td class="py-4 px-6"> Energy Engineering</td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     9
@@ -375,30 +376,30 @@ export default function admission() {
                     Industrial Engineering and Logistics Management
                   </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     10
                   </th>
                   <td class="py-4 px-6"> Mechanical Engineering </td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     11
                   </th>
                   <td class="py-4 px-6"> Robotics & AI Engineering</td>
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     12
@@ -408,21 +409,14 @@ export default function admission() {
               </tbody>
             </table>
           </div>
-        </Collaps>
-        <div className="px-10 my-10 w-full flex">
-          <div className="max-w-[40%] w-full px-2 flex">
-            <h2 className="text-2xl font-bold">
-              Application Requirements : <br /> Bachelor's Requirements (Based
-              on KMITL)
-            </h2>
           </div>
-          <div className="max-w-[60%] w-full px-2">
-            <h2 class="mb-2 text-lg font-semibold ">
-              Educational background <br />
-              The applicant must satisfy at least one of the following
-              requirements:
-            </h2>
-            <ul class="space-y-1 list-decimal list-inside">
+        </Collaps>
+        <Collaps
+          label="Application Requirements : Bachelor's Requirements (Based on KMITL)">
+          <p className="font-medium text-lg leading-7 items-center text-justify">
+          Educational background <br/> The applicant must satisfy at least one of the following requirements:
+          </p>
+          <ul class="space-y-1 list-decimal list-inside">
               <li>Graduated or studying in Matthayom 6.</li>
               <li>
                 Graduated in qualification equivalent to Matthayom 6 as approved
@@ -436,15 +430,13 @@ export default function admission() {
                 high school diplomas and/or certificates of completion from
                 their school before the start of Academic Year 2023. <br />
               </li>
-            </ul>
-            <h2 class="mb-2 text-lg font-semibold ">
-              <br /> Academics Record <br /> The applicant should submit at
-              least one of the following standardized test results and obtain a
-              score which meet the minimum requirements as specified below:
-            </h2>
-            <div class="overflow-x-auto relative">
-              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          </ul>
+          <p className="font-medium text-lg leading-7 items-center text-justify">
+          <br /> Academics Record <br/> The applicant should submit at least one of the following standardized test results and obtain a score which meet the minimum requirements as specified below:
+          </p>
+          <div class="overflow-x-auto relative">
+              <table class="w-full text-sm text-left text-black-500 ">
+                <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                   <tr>
                     <th scope="col" class="py-3 px-6">
                       {" "}
@@ -469,10 +461,10 @@ export default function admission() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       Software Engineering
@@ -521,111 +513,115 @@ export default function admission() {
                 consideration as additional document.
               </li>
             </ul>
-            <h2 class="mb-2 text-lg font-semibold ">
-              <br /> Language Requirement (for non-native English speakers){" "}
+            <div class=" w-full flex">
+          <div class="max-w-[40%] w-full px-2 py-5 flex pr-20">
+          <p className="font-medium text-lg leading-7 items-center text-justify ">
+          <br /> Language Requirement (for non-native English speakers){" "}
               <br />
               The applicant should submit at least one of the following English
               proficiency Test score and obtain a score which meets the minimum
               requirement specified below:
-            </h2>
-            <div class="overflow-x-auto relative">
-              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                  <tr>
-                    <th scope="col" class="py-3 px-6">
-                      {" "}
-                      English Proficiency Test{" "}
-                    </th>
-                    <th scope="col" class="py-3 px-6">
-                      {" "}
-                      Minimum Score{" "}
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      TOEFL - paper-based
-                    </th>
-                    <td class="py-4 px-6">550 </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      TOEFL - CBT
-                    </th>
-                    <td class="py-4 px-6">213 </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      TOEFL - IBT
-                    </th>
-                    <td class="py-4 px-6">79 </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      IELTS
-                    </th>
-                    <td class="py-4 px-6"> 6</td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      Cambridge English Exams FCE or CAE or CPE
-                    </th>
-                    <td class="py-4 px-6">170 </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      IB - English A1 or A2
-                    </th>
-                    <td class="py-4 px-6"> 4 </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      IB - English B (HL)
-                    </th>
-                    <td class="py-4 px-6">5 </td>
-                  </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <th
-                      scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                    >
-                      {" "}
-                      KMITL-TEP
-                    </th>
-                    <td class="py-4 px-6"> B2 </td>
-                  </tr>
+          </p>
+          </div>
+          <div class="max-w-[60%] w-full pl-20 py-5 flex">
+            <table class="w-1/2 text-sm text-center text-black-500 pl-50">
+              <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
+                <tr>
+                      <th scope="col" class="py-3 px-6">
+                        {" "}
+                        English Proficiency Test{" "}
+                      </th>
+                      <th scope="col" class="py-3 px-6">
+                        {" "}
+                        Minimum Score{" "}
+                      </th>
+                    </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-white border-b ">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
+                      >
+                        {" "}
+                        TOEFL - paper-based
+                      </th>
+                      <td class="py-4 px-6">550 </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
+                      >
+                        {" "}
+                        TOEFL - CBT
+                      </th>
+                      <td class="py-4 px-6">213 </td>
+                    </tr>
+                    <tr class="bg-white border-b ">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
+                      >
+                        {" "}
+                        TOEFL - IBT
+                      </th>
+                      <td class="py-4 px-6">79 </td>
+                    </tr>
+                    <tr class="bg-white border-b ">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
+                      >
+                        {" "}
+                        IELTS
+                      </th>
+                      <td class="py-4 px-6"> 6</td>
+                    </tr>
+                    <tr class="bg-white border-b ">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
+                      >
+                        {" "}
+                        Cambridge English Exams FCE or CAE or CPE
+                      </th>
+                      <td class="py-4 px-6">170 </td>
+                    </tr>
+                    <tr class="bg-white border-b ">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
+                      >
+                        {" "}
+                        IB - English A1 or A2
+                      </th>
+                      <td class="py-4 px-6"> 4 </td>
+                    </tr>
+                    <tr class="bg-white border-b ">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
+                      >
+                        {" "}
+                        IB - English B (HL)
+                      </th>
+                      <td class="py-4 px-6">5 </td>
+                    </tr>
+                    <tr class="bg-white border-b ">
+                      <th
+                        scope="row"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
+                      >
+                        {" "}
+                        KMITL-TEP
+                      </th>
+                      <td class="py-4 px-6"> B2 </td>
+                    </tr>
                 </tbody>
               </table>
-            </div>
+          </div>
+          </div>
             <h2 class="mb-2 text-lg font-semibold ">
               <br /> Remark: <br /> The applicants for Software Engineering are
               required to meet one of these additional requirements.
@@ -645,15 +641,14 @@ export default function admission() {
             <h2 class="mb-2 text-lg font-semibold ">
               <br /> Two Recommendation Letters : <br /> The applicant should upload PDFs or JPG snapshots of the letters of recommendation from your advisors or teachers.
             </h2>
-          </div>
-        </div>
+        </Collaps>
         <div className="px-10 my-10 w-full flex">
           <div className="max-w-[40%] w-full px-2 flex">
             <h2 className="text-2xl font-bold">Admissions Schedule</h2>
           </div>
           <div class="overflow-x-auto relative">
-              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <table class="w-full text-sm text-left text-black-500 ">
+                <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                   <tr>
                     <th scope="col" class="py-3 px-6">
                       {" "}
@@ -666,10 +661,10 @@ export default function admission() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       1. Application filing and Application Fee Payment Period <br/>  <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
@@ -679,10 +674,10 @@ export default function admission() {
                     </th>
                     <td class="py-4 px-6"> Now - December 23, 2022 </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       2. Interview Candidate Notification <br/>  <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
@@ -692,20 +687,20 @@ export default function admission() {
                     </th>
                     <td class="py-4 px-6">January 10, 2023 </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       3. Candidate Interview Date
                     </th>
                     <td class="py-4 px-6">January 15, 2023 </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       4. Interview Result Announcement <br /> <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
@@ -715,20 +710,20 @@ export default function admission() {
                     </th>
                     <td class="py-4 px-6"> January 27, 2023 </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       5. TCAS Clearing House (for Thai Nationality only)
                     </th>
                     <td class="py-4 px-6"> Feb 7-8, 2023 </td>
                   </tr>
-                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                  <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       6 . Enrollment Confirmation and Tuition Fee Payment <br/> <Link href = "http://www.reg.kmitl.ac.th"><a className="text-blue-800">
@@ -749,11 +744,45 @@ export default function admission() {
             </h2>
           </div>
           <div className="max-w-[60%] w-full px-2 flex">
-            <ul className="steps steps-vertical lg:steps-horizontal">
-              <li className="step step-primary">Applicants must apply via online application system</li>
-              <li className="step step-primary">Applicants must print out the pay in slip to deposit a 1000 baht non refundable application fee through any Kasikorn Bank (KBank) counter (with 10 Baht fee) or scanning barcode via any Mobile Banking application (no fees charged).</li>
-              <li className="step step-primary">Applicants must upload all necessary documents as the following in 1 pdf file (up to 4MB insize only) to online application system with subject filename as Application ID.</li>
-            </ul>
+            <ol class="relative border-l border-orange-200">                  
+              <li class="mb-10 ml-4">
+                <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -left-1.5 border border-orange"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-black-400 ">Step1</time>
+                <h3 class="text-lg font-semibold text-black-900">Applicants must apply via online application system.</h3>
+                <p class="mb-4 text-base font-normal text-black-500"> Link : <Link href = "https://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
+                        {" "}
+                        https://new.reg.kmitl.ac.th/admission
+                      </a></Link>
+                      <br/> User Guidance: <Link href = "https://drive.google.com/file/d/1_P0xhx5IxdzK37sftav2nfw5n8tvRKAx/view? usp=share_link"><a className="text-blue-800">
+                        {" "}
+                        https://drive.google.com/file/d/1_P0xhx5IxdzK37sftav2nfw5n8tvRKAx/view? usp=share_link
+                      </a></Link> </p>
+              </li>
+              <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -left-1.5 border border-orange"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-black-400 ">Step2</time>
+                <h3 class="text-lg font-semibold text-black-900">Applicants must print out the pay in slip to deposit a 1000 baht non refundable application fee through any Kasikorn Bank (KBank) counter (with 10 Baht fee) or scanning barcode via any Mobile Banking application (no fees charged).</h3>
+                <p class="mb-4 text-base font-normal text-black-500">The applicant is responsible for any additional transaction fee incurred by financial institutions. </p>
+                <p class="mb-4 text-base font-bold text-black-500"> **Please note that the application payment is non- refundable**. </p>
+                <p class="mb-4 text-base font-normal text-black-500">The applicant will be notified of his/her eligibility for an interview after the admissions committee reviews that application. The actual time of the interview will be announced later. </p>
+              </li>
+              <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -left-1.5 border border-orange"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-black-400 ">Step3</time>
+                <h3 class="text-lg font-semibold text-black-900">Applicants must upload all necessary documents as the following in 1 pdf file (up to 4 MB insize only) to online application system with subject filename as Application ID.</h3>
+                <ul class="space-y-1 list-decimal list-inside">
+                  <li>Your application form</li>
+                  <li>A photocopy of the applicant's national identification card or passport.</li>
+                  <li>Academic Records - High School Transcript, SAT, ACT, IB etc.</li>
+                  <li>4.English Proficiency Test score - IELTS, TOEFL etc.</li>
+                  <li>Two recommendation letters from teachers or supervisors.</li>
+                  <li>Personal Statement</li>
+                  <li>Portfolios Achievements (optional)</li>
+                  <li>Placement test results (optional): submit available AP, IB Higher Level, A-Level, or any grade 12 equivalent placement test results. The policy and criteria for placement credits will be determined prior to the applicant's enrollment.</li>
+                  <li>Certificate in any academic activities provided by School of Engineering - KMITL (optional)</li>
+                </ul>
+              </li>
+            </ol>
           </div>
         </div>
         <div className="px-10 my-10 w-full flex">
@@ -763,10 +792,10 @@ export default function admission() {
             </h2>
           </div>
           <div className="max-w-[60%] w-full px-2">
-            <h2 class="mb-2 text-lg font-semibold ">The tuition fees for Software Engineering programs in Academic Year 2023 are as follows:</h2>
+            <h2 class="mb-2 text-lg font-semibold ">The tuition fees for Software Engineering program in Academic Year 2023 are as follows:</h2>
             <div class="overflow-x-auto relative">
-            <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400">
-              <thead class="text-xs text-black-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <table class="w-full text-sm text-center text-black-500 ">
+              <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                 <tr>
                   <th scope="col" class="py-3 px-6">
                     {" "}
@@ -783,10 +812,10 @@ export default function admission() {
                 </tr>
               </thead>
               <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     1
