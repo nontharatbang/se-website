@@ -6,14 +6,14 @@ import mail from "../public/mail.svg";
 import twitter from "../public/twitter.svg";
 import facebook from "../public/facebook.svg";
 
-export default function Profile() {
+export default function Profile({ role, name }) {
   return (
     <div className="bg-[#D8D8D8] rounded-xl mx-5 h-96 w-72 flex flex-col">
       <div className="pt-8 pb-2 flex justify-center">
         <Image src={anonymous_profile} alt="profile" />
       </div>
-      <p className="p-2 text-center">Role</p>
-      <p className="p-2 text-center">Name</p>
+      <p className="p-2 text-center">{role}</p>
+      <p className="p-2 text-center">{name}</p>
       <div className="flex justify-center">
         <a className="p-2">
           <Image src={phone} alt="phone" />
