@@ -23,6 +23,7 @@ export default function Plan({ courses }) {
     }
     if (e.target.name == "year") {
       setYear(e.target.value);
+      setSemester(null);
     }
     if (e.target.name == "semester") {
       setSemester(e.target.value);
