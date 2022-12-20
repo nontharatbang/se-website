@@ -5,13 +5,13 @@ import axios from "axios";
 import React from "react";
 import Link from "next/Link";
 
-export default function lecturer({ crews, maxIndex }) {
+export default function news({ crews, maxIndex }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   function previousClickHandler(index) {
     if (index >= 0) {
       setCurrentIndex(index);
-      Router.push(`/alumni/${index}`);
+      Router.push(`/news/${index}`);
     }
   }
 
@@ -24,8 +24,8 @@ export default function lecturer({ crews, maxIndex }) {
 
   return (
     <div>
-      <div className="bg-[url('../public/alumni_bg.svg')] bg-cover bg-top min-h-[480px] text-white font-bold flex flex-col justify-center">
-        <h1 className="px-20 text-7xl uppercase">Alumni</h1>
+      <div className="bg-[url('../public/news_bg.svg')] bg-cover bg-top min-h-[480px] text-white font-bold flex flex-col justify-center">
+        <h1 className="px-20 text-7xl uppercase">News</h1>
       </div>
       <div className="my-10 mx-auto px-10  h-full w-full max-w-[1920px]">
         <div className="flex">
