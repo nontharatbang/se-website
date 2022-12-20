@@ -20,8 +20,8 @@ export default function Profile({
       <div className="pt-8 pb-2 flex justify-center">
         <Image src={anonymous_profile} alt="profile" />
       </div>
-      <p className="p-2 text-center">{role}</p>
-      <p className="p-2 text-center">{name}</p>
+      <p className="p-2 text-center font-bold">{role}</p>
+      <p className="p-2 text-center font-medium">{name}</p>
       <div className="flex justify-center">
         <a className="p-2" href={`tel:${tel}`}>
           <Image src={phone_pic} alt="phone" />
@@ -36,7 +36,7 @@ export default function Profile({
           <Image src={facebook_pic} alt="facebook_pic" />
         </a>
       </div>
-      <p className="p-2 text-center">{about}</p>
+      <p className="p-2 text-center font-medium">{about}</p>
     </div>
   );
 }
