@@ -21,8 +21,7 @@ export default function lecturer({ crews }) {
         <div>
           {/* <h1>{data.results.name}</h1> */}
           {crews.map((crew) => (
-            // <Profile role={crew.role} name={crew.name} />
-            <h1>{crew.coursename}</h1>
+            <Profile role={crew.role} name={crew.name} />
           ))}
         </div>
         {/* <button onClick={handlePageChange}>Next Page</button> */}
@@ -31,17 +30,12 @@ export default function lecturer({ crews }) {
   );
 }
 
-export async function getServerSideProps() {
-  const router = useRouter;
-  // const pathData = router.query;
-  // console.log(pathData);
-  const page = router.asPath;
-  console.log(page);
-  // const { page } = useParams;
+export async function getServerSideProps(context) {
+  const page = context.params; //starts with 0
+  const currentPage = page.index;
 
-  // console.log(pid);
   const { data } = await axios.get(
-    `http://127.0.0.1:8000/courses/?page=${page}`
+    `http://127.0.0.1:8000/crews/?page=${currentPage}`
   );
   return {
     props: {
