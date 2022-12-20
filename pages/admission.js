@@ -71,7 +71,7 @@ export default function admission() {
           </p>
           </div>
           <div class="max-w-[50%] w-full px-2 py-5 flex">
-            <table class="w-3/4 text-sm text-center text-gray-500 ">
+            <table class="w-3/4 text-sm text-center text-black-500 ">
               <thead class="text-xs text-black-700 text-center uppercase bg-orange-50">
                 <tr>
                   <th scope="col" class="py-3 px-6">
@@ -92,7 +92,7 @@ export default function admission() {
                 <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     1
@@ -103,7 +103,7 @@ export default function admission() {
                 <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     2
@@ -114,7 +114,7 @@ export default function admission() {
                 <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     3
@@ -125,7 +125,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     4
@@ -136,7 +136,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     5
@@ -150,7 +150,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     6
@@ -164,7 +164,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     7
@@ -178,7 +178,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     8
@@ -189,7 +189,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     9
@@ -200,7 +200,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     10
@@ -214,7 +214,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     11
@@ -225,7 +225,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     12
@@ -236,7 +236,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     13
@@ -260,7 +260,7 @@ export default function admission() {
           </p>
           </div>
           <div class="max-w-[60%] w-full pl-20 py-5 flex">
-            <table class="w-5/6 text-sm text-center text-gray-500 ">
+            <table class="w-5/6 text-sm text-center text-black-500 ">
               <thead class="text-xs text-black-700 text-center uppercase bg-orange-50">
                 <tr>
                     <th scope="col" class="py-3 px-6">
@@ -277,7 +277,7 @@ export default function admission() {
               <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     1
@@ -287,7 +287,7 @@ export default function admission() {
                 <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     2
@@ -297,7 +297,7 @@ export default function admission() {
                 <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     3
@@ -307,7 +307,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     4
@@ -317,7 +317,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     5
@@ -330,7 +330,7 @@ export default function admission() {
                 <tr class="bg-white border-b">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     6
@@ -343,7 +343,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     7
@@ -356,7 +356,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                   >
                     {" "}
                     8
@@ -366,7 +366,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     9
@@ -379,7 +379,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     10
@@ -389,7 +389,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     11
@@ -399,7 +399,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     12
@@ -435,7 +435,7 @@ export default function admission() {
           <br /> Academics Record <br/> The applicant should submit at least one of the following standardized test results and obtain a score which meet the minimum requirements as specified below:
           </p>
           <div class="overflow-x-auto relative">
-              <table class="w-full text-sm text-left text-gray-500 ">
+              <table class="w-full text-sm text-left text-black-500 ">
                 <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                   <tr>
                     <th scope="col" class="py-3 px-6">
@@ -464,7 +464,7 @@ export default function admission() {
                   <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       Software Engineering
@@ -524,7 +524,7 @@ export default function admission() {
           </p>
           </div>
           <div class="max-w-[60%] w-full pl-20 py-5 flex">
-            <table class="w-1/2 text-sm text-center text-gray-500 pl-50">
+            <table class="w-1/2 text-sm text-center text-black-500 pl-50">
               <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                 <tr>
                       <th scope="col" class="py-3 px-6">
@@ -541,7 +541,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                       >
                         {" "}
                         TOEFL - paper-based
@@ -551,7 +551,7 @@ export default function admission() {
                     <tr class="bg-white border-b">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                       >
                         {" "}
                         TOEFL - CBT
@@ -561,7 +561,7 @@ export default function admission() {
                     <tr class="bg-white border-b ">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                       >
                         {" "}
                         TOEFL - IBT
@@ -571,7 +571,7 @@ export default function admission() {
                     <tr class="bg-white border-b ">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap"
                       >
                         {" "}
                         IELTS
@@ -581,7 +581,7 @@ export default function admission() {
                     <tr class="bg-white border-b ">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                       >
                         {" "}
                         Cambridge English Exams FCE or CAE or CPE
@@ -591,7 +591,7 @@ export default function admission() {
                     <tr class="bg-white border-b ">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                       >
                         {" "}
                         IB - English A1 or A2
@@ -601,7 +601,7 @@ export default function admission() {
                     <tr class="bg-white border-b ">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                       >
                         {" "}
                         IB - English B (HL)
@@ -611,7 +611,7 @@ export default function admission() {
                     <tr class="bg-white border-b ">
                       <th
                         scope="row"
-                        class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                        class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                       >
                         {" "}
                         KMITL-TEP
@@ -647,7 +647,7 @@ export default function admission() {
             <h2 className="text-2xl font-bold">Admissions Schedule</h2>
           </div>
           <div class="overflow-x-auto relative">
-              <table class="w-full text-sm text-left text-gray-500 ">
+              <table class="w-full text-sm text-left text-black-500 ">
                 <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                   <tr>
                     <th scope="col" class="py-3 px-6">
@@ -664,7 +664,7 @@ export default function admission() {
                   <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       1. Application filing and Application Fee Payment Period <br/>  <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
@@ -677,7 +677,7 @@ export default function admission() {
                   <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       2. Interview Candidate Notification <br/>  <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
@@ -690,7 +690,7 @@ export default function admission() {
                   <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       3. Candidate Interview Date
@@ -700,7 +700,7 @@ export default function admission() {
                   <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       4. Interview Result Announcement <br /> <Link href = "http://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
@@ -713,7 +713,7 @@ export default function admission() {
                   <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       5. TCAS Clearing House (for Thai Nationality only)
@@ -723,7 +723,7 @@ export default function admission() {
                   <tr class="bg-white border-b ">
                     <th
                       scope="row"
-                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                      class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                     >
                       {" "}
                       6 . Enrollment Confirmation and Tuition Fee Payment <br/> <Link href = "http://www.reg.kmitl.ac.th"><a className="text-blue-800">
@@ -744,11 +744,45 @@ export default function admission() {
             </h2>
           </div>
           <div className="max-w-[60%] w-full px-2 flex">
-            <ul className="steps steps-vertical lg:steps-horizontal">
-              <li className="step step-primary">Applicants must apply via online application system</li>
-              <li className="step step-primary">Applicants must print out the pay in slip to deposit a 1000 baht non refundable application fee through any Kasikorn Bank (KBank) counter (with 10 Baht fee) or scanning barcode via any Mobile Banking application (no fees charged).</li>
-              <li className="step step-primary">Applicants must upload all necessary documents as the following in 1 pdf file (up to 4MB insize only) to online application system with subject filename as Application ID.</li>
-            </ul>
+            <ol class="relative border-l border-orange-200">                  
+              <li class="mb-10 ml-4">
+                <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -left-1.5 border border-orange"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-black-400 ">Step1</time>
+                <h3 class="text-lg font-semibold text-black-900">Applicants must apply via online application system.</h3>
+                <p class="mb-4 text-base font-normal text-black-500"> Link : <Link href = "https://new.reg.kmitl.ac.th/admission"><a className="text-blue-800">
+                        {" "}
+                        https://new.reg.kmitl.ac.th/admission
+                      </a></Link>
+                      <br/> User Guidance: <Link href = "https://drive.google.com/file/d/1_P0xhx5IxdzK37sftav2nfw5n8tvRKAx/view? usp=share_link"><a className="text-blue-800">
+                        {" "}
+                        https://drive.google.com/file/d/1_P0xhx5IxdzK37sftav2nfw5n8tvRKAx/view? usp=share_link
+                      </a></Link> </p>
+              </li>
+              <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -left-1.5 border border-orange"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-black-400 ">Step2</time>
+                <h3 class="text-lg font-semibold text-black-900">Applicants must print out the pay in slip to deposit a 1000 baht non refundable application fee through any Kasikorn Bank (KBank) counter (with 10 Baht fee) or scanning barcode via any Mobile Banking application (no fees charged).</h3>
+                <p class="mb-4 text-base font-normal text-black-500">The applicant is responsible for any additional transaction fee incurred by financial institutions. </p>
+                <p class="mb-4 text-base font-bold text-black-500"> **Please note that the application payment is non- refundable**. </p>
+                <p class="mb-4 text-base font-normal text-black-500">The applicant will be notified of his/her eligibility for an interview after the admissions committee reviews that application. The actual time of the interview will be announced later. </p>
+              </li>
+              <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-orange-200 rounded-full mt-1.5 -left-1.5 border border-orange"></div>
+                <time class="mb-1 text-sm font-normal leading-none text-black-400 ">Step3</time>
+                <h3 class="text-lg font-semibold text-black-900">Applicants must upload all necessary documents as the following in 1 pdf file (up to 4 MB insize only) to online application system with subject filename as Application ID.</h3>
+                <ul class="space-y-1 list-decimal list-inside">
+                  <li>Your application form</li>
+                  <li>A photocopy of the applicant's national identification card or passport.</li>
+                  <li>Academic Records - High School Transcript, SAT, ACT, IB etc.</li>
+                  <li>4.English Proficiency Test score - IELTS, TOEFL etc.</li>
+                  <li>Two recommendation letters from teachers or supervisors.</li>
+                  <li>Personal Statement</li>
+                  <li>Portfolios Achievements (optional)</li>
+                  <li>Placement test results (optional): submit available AP, IB Higher Level, A-Level, or any grade 12 equivalent placement test results. The policy and criteria for placement credits will be determined prior to the applicant's enrollment.</li>
+                  <li>Certificate in any academic activities provided by School of Engineering - KMITL (optional)</li>
+                </ul>
+              </li>
+            </ol>
           </div>
         </div>
         <div className="px-10 my-10 w-full flex">
@@ -760,7 +794,7 @@ export default function admission() {
           <div className="max-w-[60%] w-full px-2">
             <h2 class="mb-2 text-lg font-semibold ">The tuition fees for Software Engineering program in Academic Year 2023 are as follows:</h2>
             <div class="overflow-x-auto relative">
-            <table class="w-full text-sm text-center text-gray-500 ">
+            <table class="w-full text-sm text-center text-black-500 ">
               <thead class="text-xs text-black-700 text-center uppercase bg-orange-50 ">
                 <tr>
                   <th scope="col" class="py-3 px-6">
@@ -781,7 +815,7 @@ export default function admission() {
                 <tr class="bg-white border-b ">
                   <th
                     scope="row"
-                    class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+                    class="py-4 px-6 font-medium text-black-900 whitespace-nowrap "
                   >
                     {" "}
                     1
