@@ -33,7 +33,7 @@ export default function updatenews({ index }) {
     <div className="mt-28" style={{ height: "70vh" }}>
       <div className="mx-auto pt-4 px-20 h-full w-full max-w-[1920px]">
         <h1 className="text-5xl font-bold content-fit flex justify-center">
-          Update your news {index.index}
+          Update news
         </h1>
         <div className="my-10 h-1 bg-black"></div>
         <form onSubmit={handleSubmit}>
