@@ -65,18 +65,18 @@ export default function Home({ profs, alumni }) {
               <div className="bg-[rgb(0,0,0,0.6)] flex flex-col justify-center">
                 <div className="px-6 py-4 flex justify-between">
                   <div className="cursor-pointer">
-                    <Link href="/news/0">
+                    <Link href="/news">
                       <h3 className="text-2xl">News</h3>
                     </Link>
-                    <Link href="/news/0">
+                    <Link href="/news">
                       <p className="text-base">News around kmitl</p>
                     </Link>
                   </div>
                   <div className="flex flex-wrap py-2 cursor-pointer">
-                    <Link href="/news/0">
+                    <Link href="/news">
                       <Image src={learnmore_arrow} alt="learnmore arrow" />
                     </Link>
-                    <Link href="/news/0">
+                    <Link href="/news">
                       <span className="self-center pl-2 whitespace-nowrap">
                         Learn more
                       </span>

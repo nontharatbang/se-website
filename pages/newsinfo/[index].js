@@ -1,14 +1,39 @@
 import axios from "axios";
+import Router from "next/router";
 
-export default function newsinfo({ news, id }) {
+export default function newsinfo({ news, index }) {
+  const updateButtonHandler = () => {
+    console.log(index.index);
+    Router.push(`/updatenews/${index.index}`);
+  };
+
+  const deleteButtonHandler = async () => {
+    const endpoint = `http://127.0.0.1:8000/news/${index.index}`;
+    const options = {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+
+    const response = await fetch(endpoint, options);
+    Router.push("/news");
+  };
+
   return (
     <div className="mt-28">
       <div className="mx-auto pt-4 px-20 h-full w-full max-w-[1920px]">
         <div className="flex justify-end">
-          <button className="mx-2 text-white btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+          <button
+            className="mx-2 text-white btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            onClick={() => updateButtonHandler()}
+          >
             Update
           </button>
-          <button className="mx-2 text-white btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+          <button
+            className="mx-2 text-white btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            onClick={() => deleteButtonHandler()}
+          >
             Delete
           </button>
         </div>
@@ -39,8 +64,9 @@ export default function newsinfo({ news, id }) {
 }
 
 export async function getServerSideProps(context) {
-  const id = context.params.index;
-  const { data } = await axios.get(`http://127.0.0.1:8000/news/${id}`);
+  const id = context.params;
+  const newsPage = id.index;
+  const { data } = await axios.get(`http://127.0.0.1:8000/news/${newsPage}`);
 
   return {
     props: {

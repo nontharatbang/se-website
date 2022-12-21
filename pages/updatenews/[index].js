@@ -1,7 +1,7 @@
 import axios from "axios";
 import Router from "next/router";
 
-export default function publish() {
+export default function updatenews({ index }) {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -12,11 +12,9 @@ export default function publish() {
     };
 
     const JSONdata = JSON.stringify(data);
-    console.log(JSONdata);
-    const endpoint = "http://127.0.0.1:8000/news/";
-    console.log();
+    const endpoint = `http://127.0.0.1:8000/news/${index.index}`;
     const options = {
-      method: "POST",
+      method: "PUT",
       headers: {
         "Content-Type": "application/json",
       },
@@ -28,14 +26,14 @@ export default function publish() {
   };
 
   function onClickedHandled() {
-    Router.push("/news");
+    Router.push(`/news`);
   }
 
   return (
     <div className="mt-28" style={{ height: "70vh" }}>
       <div className="mx-auto pt-4 px-20 h-full w-full max-w-[1920px]">
         <h1 className="text-5xl font-bold content-fit flex justify-center">
-          Publish a news
+          Update your news {index.index}
         </h1>
         <div className="my-10 h-1 bg-black"></div>
         <form onSubmit={handleSubmit}>
@@ -80,4 +78,14 @@ export default function publish() {
       </div>
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  const id = context.params;
+
+  return {
+    props: {
+      index: id,
+    },
+  };
 }
