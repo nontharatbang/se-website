@@ -47,7 +47,7 @@ export default function alumni({ crews, maxIndex }) {
           </div>
           <div className="w-[80%] flex flex-wrap">
             {crews.map((crew) => (
-              <div className="w-[25%] p-4 box-border">
+              <div className="w-[25%] p-4 box-border" key={crews.id}>
                 <Profile
                   role="Alumni"
                   name={crew.name}
