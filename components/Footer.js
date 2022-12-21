@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "../styles/Footer.module.css";
 import logo from "../public/SElogo.svg";
 import facebook from "../public/fb_footer.svg";
 import instagram from "../public/ig_footer.svg";

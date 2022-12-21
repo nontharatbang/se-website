@@ -1,4 +1,3 @@
-import styles from "../styles/Profile.module.css";
 import Image from "next/image";
 import program_structure from "../public/program_structure.svg";
 

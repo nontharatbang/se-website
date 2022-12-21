@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "../styles/Profile.module.css";
 import anonymous_profile from "../public/anonymous_profile.svg";
 import phone_pic from "../public/phone.svg";
 import email_pic from "../public/mail.svg";

@@ -87,19 +87,23 @@ export default function Home({ profs, alumni }) {
             </div>
           </div>
           <div className="max-w-[50%] w-full flex flex-col justify-start pl-10">
-            <div className="bg-[url('../public/news_link.svg')] bg-cover h-[34.5rem] w-full my-5 p-0 flex flex-col justify-end text-white font-bold">
+            <div className="bg-[url('../public/glasgowjoin.svg')] bg-cover h-[34.5rem] w-full my-5 p-0 flex flex-col justify-end text-white font-bold">
               <div className="bg-[rgb(0,0,0,0.6)] flex flex-col justify-center">
                 <div className="px-6 py-[1.375rem] flex justify-between">
-                  <div className="flex flex-col justify-center">
-                    <p className="text-2xl">
-                      There is a flood due to heavy rain in KMITL
-                    </p>
+                  <div className="flex flex-col justify-center cursor-pointer">
+                    <Link href="/kmitl_glasgow">
+                      <p className="text-2xl">Join Glasgow - KMITL program</p>
+                    </Link>
                   </div>
-                  <div className="flex flex-wrap py-2">
-                    <Image src={learnmore_arrow} alt="learnmore arrow" />
-                    <span className="self-center pl-2 whitespace-nowrap">
-                      Learn more
-                    </span>
+                  <div className="flex flex-wrap py-2 cursor-pointer">
+                    <Link href="/kmitl_glasgow">
+                      <Image src={learnmore_arrow} alt="learnmore arrow" />
+                    </Link>
+                    <Link href="/kmitl_glasgow">
+                      <span className="self-center pl-2 whitespace-nowrap">
+                        Learn more
+                      </span>
+                    </Link>
                   </div>
                 </div>
               </div>
