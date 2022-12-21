@@ -22,7 +22,7 @@ export default function Navbar() {
             <Link href="/admission">Admission</Link>
           </li>
           <li className="cursor-pointer">
-            <Link href="/news/0">News</Link>
+            <Link href="/news">News</Link>
           </li>
         </ul>
       </div>
