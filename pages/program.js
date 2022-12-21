@@ -11,7 +11,7 @@ export default function program() {
             Explore program
           </h1>
           <h1 className="px-20 pt-4 text-7xl uppercase">
-            Avaliable at SE@kmitl
+            Available at SE@kmitl
           </h1>
         </div>
       </div>
